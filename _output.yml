@@ -1,0 +1,11 @@
+bookdown::gitbook:
+  css: [style.css, css/dsbox.css]
+  config:
+    toc:
+      before: |
+        <li><a href="./">CINAR Intro MSE</a></li>
+        <li><a href="https://github.com/gavinfay/cinar-mse/">← Go to GitHub repo</a></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+    download: ["epub"]
+bookdown::epub_book: default

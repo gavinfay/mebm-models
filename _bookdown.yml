@@ -1,0 +1,28 @@
+book_filename: "CINAR Intro MSE"
+language:
+  ui:
+    chapter_name: "Chapter "
+rmd_files: [
+  "index.Rmd",
+  "01-intro-mse.Rmd"
+#  "02-operating-models.Rmd",
+#  "03-management-strategies.Rmd",
+#  "04-objectives.Rmd",
+#  "05-stakeholder-engagement.Rmd",
+#  "06-presenting-results.Rmd",
+#  "07-ecosystem-mse.Rmd",
+#  "08-additional-topics.Rmd",
+#  "08-case-studies.Rmd"
+  #"rstudio.Rmd", # session 1
+  #"github.Rmd", # session 2
+  #"ggplot2.Rmd", # session 3
+  #"pivot-tables.Rmd", # session 4
+  #"tidying.Rmd", # session 5
+  #"filter-join.Rmd", # session 6
+  #"collaborating.Rmd", # session 7
+  #"synthesis.Rmd" # session 8 
+  #"closing.Rmd" 
+ ]
+delete_merged_file: true
+output_dir: "docs"
+# always_allow_html: true # added after build error suggested this for kable() ---but unsuccessful
