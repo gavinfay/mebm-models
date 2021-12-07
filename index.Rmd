@@ -42,14 +42,6 @@ This website (built in R!) provides access to the workshop materials and will be
 ## Agenda {.unnumbered}
 _(subject to change)_
 
-<!-- |8/16 |  [Overview](#overview), [R & RStudio, RMarkdown](#rstudio) (JL) |  [Tidying](#tidying) (AH) | -->
-<!-- |break      |  | | -->
-<!-- |11-12:30   | [Intro to GitHub](#github) (JL) | [Filters & joins](#filter-join) (AH) | -->
-<!-- |lunch      |  || -->
-<!-- |13:30-15:00 | [Graphs with `ggplot2`](#ggplot2) (AH) | [Collaborating & getting help](#collaborating) (JL) | -->
-<!-- |break      |  | | -->
-<!-- |15:30-17:00 | [Pivot Tables & `dplyr`](#pivot-tables) (JL) | [Synthesis](#synthesis) (AH) | -->
-
 |Day|Time|Topic|
 |:--|:----|:---------|
 | M | 10-10:30 | Intro, Workshop overview
