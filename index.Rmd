@@ -85,7 +85,7 @@ Before the workshop, please visit [Rstudio Cloud](https://rstudio.cloud) and cre
 Free accounts give limited usage, but are more than enough for these workshops.  
 
 Instructions for how to navigate to our RStudio Cloud project and set up the project so you can work on the exercises in your own web browser can be found here.
-_to come_
+[RStudio Cloud set up guide & instructions](https://github.com/gavinfay/cinar-mse/issues/1)
 
 ### R & RStudio on own machine {.unnumbered}
 
@@ -96,7 +96,7 @@ _to come_
 
 **Getting the workshop materials to your computer**
 You can create a R Studio project from the github repository for the workshop.  
-_RStudio project set up guide to come here_
+[RStudio project set up guide](https://github.com/gavinfay/cinar-mse/issues/2)
 
 **R Packages used**
 If not using the RStudio Cloud project, we will be using the following R packages and you can install them on your local machine ahead of time by running the below code in the R console (copy & paste).  
