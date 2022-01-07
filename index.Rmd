@@ -101,8 +101,19 @@ You can create a R Studio project from the github repository for the workshop.
 **R Packages used**
 If not using the RStudio Cloud project, we will be using the following R packages and you can install them on your local machine ahead of time by running the below code in the R console (copy & paste).  
 
-_Coming Soon_
-
+```{r eval=FALSE}
+pkgs_to_use <- c("tidyverse",
+                 "palmerpenguins",
+                 "furrr",
+                 "MASS",
+                 "janitor",
+                 "skimr",
+                 "Hmisc",
+                 "mvtnorm",
+                 "bookdown",
+                 "RcppRoll")
+install.packages(setdiff(pkgs_to_use, rownames(installed.packages())))  
+```
 
 ## Code of Conduct {.unnumbered}
 
