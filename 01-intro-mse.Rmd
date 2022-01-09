@@ -1,6 +1,7 @@
 # Introduction to MSE {#intro}
 
 (Monday 10-12)
+(Monday 1-3)
 
 This session begins with introductions, our roles & responsibilities, models for communication.  
 
@@ -8,7 +9,7 @@ This session begins with introductions, our roles & responsibilities, models for
 **Welcome**
 
 ::: {.slides}
-<!-- <!-- [Slides](https://docs.google.com/presentation/d/140ghe7ub5dq_yNyrS0wyfwE7tHb2v19nflBKSLUwq4Y/edit?usp=sharing) --> -->
+[Slides](https://docs.google.com/presentation/d/1-8vz18TwqXSQ_-XOZzNplI1VTJGHE6NsdQZ1Kokq9TY/edit?usp=sharing)
 :::
 :::
 

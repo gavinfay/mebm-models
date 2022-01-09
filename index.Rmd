@@ -44,7 +44,7 @@ _(subject to change)_
 
 |Day|Time|Topic|
 |:--|:----|:---------|
-| M | 10-10:30 | Intro, Workshop overview
+| M | 10-10:30 | [Intro, Workshop overview](#intro) |
 | M | 10:30-12  | [What is MSE? (lecture and MSE game)](#intro) |
 | M | 1-3 |  [My first MSE (breakout R intro exercise)](#first-mse) |
 | M | 3:30-4:30 |  [code-through of first mse (R: intro exercise)](#first-mse) |
