@@ -37,10 +37,10 @@ An introduction to MSE, including a web-based 'toy' MSE app to overview the comp
 The best way to interact with the tutorial is through [RStudio](https://github.com/gavinfay/cinar-mse/issues/2) or [RStudio Cloud](https://github.com/gavinfay/cinar-mse/issues/1).
 
 
-::: {.source}
-[R Markdown](https://github.com/gavinfay/cinar-mse/tree/main/materials/exercises/day-01/my-first-mse.Rmd)
-:::
+<!-- ::: {.source} -->
+<!-- [R Markdown](https://github.com/gavinfay/cinar-mse/tree/main/materials/exercises/day-01/my-first-mse.Rmd) -->
+<!-- ::: -->
 
-::: {.tutorial}
-[knitted pdf](https://github.com/gavinfay/cinar-mse/tree/main/materials/exercises/day-01/my-first-mse.pdf)
-:::
+<!-- ::: {.tutorial} -->
+<!-- [knitted pdf](https://github.com/gavinfay/cinar-mse/tree/main/materials/exercises/day-01/my-first-mse.pdf) -->
+<!-- ::: -->
