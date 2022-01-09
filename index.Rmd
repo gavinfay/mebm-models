@@ -48,7 +48,7 @@ _(subject to change)_
 | M | 10:30-12  | [What is MSE? (lecture and MSE game)](#intro) |
 | M | 1-3 |  [My first MSE (breakout R intro exercise)](#first-mse) |
 | M | 3:30-4:30 |  [code-through of first mse (R: intro exercise)](#first-mse) |
-| M | 4:30 - 5 | Case studies discussion |
+| M | 4:30 - 5 | [Case studies discussion](#case-studies) |
 | T | 9-9:30 | Reading discussion |
 | T | 9:30-10:30 | [Objectives & Performance metrics (lecture)](#objectives) |
 | T | 11-12 | [Case studies: developing objectives & candidate strategies for examples (breakout exercise)](#case-studies) |

@@ -18,7 +18,7 @@ _(subject to change)_
 
 |Day|Time|Topic|
 |:--|:----|:---------|
-| M | 10-10:30 | Intro, Workshop overview
+| M | 10-10:30 | [Intro, Workshop overview](#intro) |
 | M | 10:30-12  | [What is MSE? (lecture and MSE game)](#intro) |
 | M | 1-3 |  [My first MSE (breakout R intro exercise)](#first-mse) |
 | M | 3:30-4:30 |  [code-through of first mse (R: intro exercise)](#first-mse) |
@@ -26,7 +26,7 @@ _(subject to change)_
 | T | 9-9:30 | Reading discussion |
 | T | 9:30-10:30 | [Objectives & Performance metrics (lecture)](#objectives) |
 | T | 11-12 | [Case studies: developing objectives & candidate strategies for examples (breakout exercise)](#case-studies) |
-| T | 1-2 | [Stakeholder engagement (discussion)](#stakeholders) |
+| T | 1-2 | [Including the ecosystem in MSEs (discussion)](#environment) |
 | T | 2-3  | [designing operating models (lecture)](#op-mods) |
 | T | 3:30-5 | [coding & implementing OMs (R lab breakouts)](#coding-oms) |
 | W | 9-9:30 | Reading discussion
