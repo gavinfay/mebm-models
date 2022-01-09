@@ -4,7 +4,7 @@ language:
     chapter_name: "Chapter "
 rmd_files: [
   "index.Rmd",
-  "01-intro-mse.Rmd"
+  "01-intro-mse.Rmd",
   "02-case-studies.Rmd"
 #  "02-operating-models.Rmd",
 #  "03-management-strategies.Rmd",
