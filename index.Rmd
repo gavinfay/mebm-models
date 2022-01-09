@@ -52,7 +52,7 @@ _(subject to change)_
 | T | 9-9:30 | Reading discussion |
 | T | 9:30-10:30 | [Objectives & Performance metrics (lecture)](#objectives) |
 | T | 11-12 | [Case studies: developing objectives & candidate strategies for examples (breakout exercise)](#case-studies) |
-| T | 1-2 | [Stakeholder engagement (discussion)](#stakeholders) |
+| T | 1-2 | [Including the ecosystem in MSEs (discussion)](#environment) |
 | T | 2-3  | [designing operating models (lecture)](#op-mods) |
 | T | 3:30-5 | [coding & implementing OMs (R lab breakouts)](#coding-oms) |
 | W | 9-9:30 | Reading discussion
