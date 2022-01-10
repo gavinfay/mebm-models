@@ -1,14 +1,15 @@
 # Communication  {#communication}
 
-(Wednesday 3:30-5)
+<!-- (Wednesday 3:30-5) -->
 
 ## Presenting Results
 
 ::: {.slide-deck}
 **Presenting results to managers**
 
-::: {.slides}
-[Slides](https://docs.google.com/presentation/d/180Bzo7YDBi1n4FwvI5WwPVDS2e73NVTu0lu0ll-D0sw/edit?usp=sharing)
 :::
-:::
+<!-- ::: {.slides} -->
+<!-- [Slides](https://docs.google.com/presentation/d/180Bzo7YDBi1n4FwvI5WwPVDS2e73NVTu0lu0ll-D0sw/edit?usp=sharing) -->
+<!-- ::: -->
+<!-- ::: -->
 
