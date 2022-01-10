@@ -104,6 +104,7 @@ If not using the RStudio Cloud project, we will be using the following R package
 
 ```{r eval=FALSE}
 pkgs_to_use <- c("tidyverse",
+                 "ggdist",
                  "palmerpenguins",
                  "furrr",
                  "MASS",
