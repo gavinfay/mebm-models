@@ -1,0 +1,15 @@
+# Management Strategies  {#management}
+
+<!-- (Tuesday 1-2:30) -->
+
+## Selecting Management Strategies
+
+::: {.slide-deck}
+**Management Strategies**
+
+:::
+<!-- ::: {.slides} -->
+<!-- [Slides](https://docs.google.com/presentation/d/1HTzFsh_OmwjeBFdsXzJP0IOX59ghw02y08RG9-Wbz5k/edit?usp=sharing) -->
+<!-- ::: -->
+<!-- ::: -->
+

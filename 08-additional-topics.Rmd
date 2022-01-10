@@ -1,0 +1,17 @@
+# Additional MSE topics  {#grab-bag}
+
+<!-- (Friday 9-10) -->
+
+## Choose Your Own Adventure
+
+
+::: {.slide-deck}
+**Spatial: Macquarie Island toothfish, code, objective/metric maps**
+
+:::
+<!-- ::: {.slides} -->
+<!-- [Slides](https://docs.google.com/presentation/d/1dktTTrWjs01kew56lafMinFLl-ZYWMuUC70Hli9syys/edit?usp=sharing) -->
+<!-- ::: -->
+<!-- ::: -->
+
+

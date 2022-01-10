@@ -12,11 +12,11 @@ Each group will select a small number of scenarios to test and present summaries
 
 These case study projects are meant to provide practical experience with MSE technical analyses but it is encouraged to not make them too complicated, they needn't reflect every nuance or complexity associated with management of the chosen stock/population.  
 
-Sections included 
+Sections will include  
 
-### Developing objectives & candidate strategies
+### Developing objectives & candidate strategies {.unnumbered}
 
-### Relevant OM & HCR needs for case studies {#project-needs}
+### Relevant OM & HCR needs for case studies {#project-needs .unnumbered}
 
 ### Breakout group project coding episode 1 {#project-coding1 .unnumbered}
 

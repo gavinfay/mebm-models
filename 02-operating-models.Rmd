@@ -1,0 +1,93 @@
+# Operating Models  {#op-mods}
+
+<!-- (Tuesday 9-10, 10:30-12) -->
+<!-- (Thursday 9-10, 10:30-12) -->
+
+<!-- ## My first MSE revisited -->
+
+<!-- ::: {.application-exercise}  -->
+<!-- **Day 2 version of My first MSE (R tutorial / exercise)** -->
+
+<!-- The best way to interact with the tutorial is through [RStudio](https://github.com/gavinfay/asmfc-mse/issues/2) or [RStudio Cloud](https://github.com/gavinfay/asmfc-mse/issues/1). -->
+
+<!-- ::: {.source} -->
+<!-- [R Markdown](https://github.com/gavinfay/asmfc-mse/tree/main/materials/exercises/day-02/my-first-mse.Rmd) -->
+<!-- ::: -->
+
+<!-- ::: {.tutorial} -->
+<!-- [knitted pdf](https://github.com/gavinfay/asmfc-mse/tree/main/materials/exercises/day-01/my-first-mse.pdf) -->
+<!-- ::: -->
+
+<!-- ::: -->
+
+## Designing Operating Models
+
+::: {.slide-deck}
+**Developing Operating Models**
+
+::: 
+<!-- {.slides} -->
+<!-- [Slides](https://docs.google.com/presentation/d/1B_Qsv02g6HhxoeprYFOafJwRXlZU620LsHZEa_QpgiA/edit?usp=sharing) -->
+<!-- ::: -->
+<!-- ::: -->
+
+
+## Implementing Operating Models {#coding-oms}
+
+R lab exercise extending our example to compare OMs
+
+::: {.application-exercise} 
+**Alternative operating model dynamics**
+
+The best way to interact with the tutorial is through [RStudio](https://github.com/gavinfay/cinar-mse/issues/2) or [RStudio Cloud](https://github.com/gavinfay/cinar-mse/issues/1).
+
+:::
+<!-- ::: {.source} -->
+<!-- [R Markdown](https://github.com/gavinfay/asmfc-mse/tree/main/materials/exercises/day-02/alternative-oms.Rmd) -->
+<!-- ::: -->
+
+<!-- ::: {.tutorial} -->
+<!-- [knitted pdf](https://github.com/gavinfay/asmfc-mse/tree/main/materials/exercises/day-02/alternative-oms.pdf) -->
+<!-- ::: -->
+
+<!-- ::: -->
+
+
+## Additional Operating Model considerations {#oms-revisited}
+
+::: {.slide-deck}
+**OMs revisited**
+
+:::
+<!-- ::: {.slides} -->
+<!-- [Slides](https://docs.google.com/presentation/d/1JjH54uhIPchX-0QqmUUkWRJZoeBu7FNdvIkeSwfZyGQ/edit?usp=sharing) -->
+<!-- ::: -->
+<!-- ::: -->
+
+::: {.application-exercise} 
+**Organizing your analyses, towards a {tidymse}**
+
+:::
+<!-- ::: {.source} -->
+<!-- [R Markdown](https://github.com/gavinfay/asmfc-mse/tree/main/materials/exercises/day-04/age-structure-om.Rmd) -->
+<!-- ::: -->
+
+<!-- ::: {.tutorial} -->
+<!-- [knitted pdf](https://github.com/gavinfay/asmfc-mse/tree/main/materials/exercises/day-04/age-structure-om.pdf) -->
+<!-- ::: -->
+
+<!-- ::: -->
+
+
+## Policy testing with constraints - adding Implementation Error {#implementation}
+
+::: {.slide-deck}
+**Implementation error**
+
+:::
+<!-- ::: {.slides} -->
+<!-- [Slides](https://docs.google.com/presentation/d/1nUEOReOiAW9G7X7qJmcfFOJWXyIc0_27BrMPTjec9sE/edit?usp=sharing) -->
+<!-- ::: -->
+<!-- ::: -->
+
+
