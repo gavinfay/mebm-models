@@ -2,3 +2,6 @@ welcome
 intro
 what-is-mse
 first-mse
+case-studies
+developing-objectives-candidate-strategies
+project-needs
