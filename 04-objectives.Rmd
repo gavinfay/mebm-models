@@ -1,5 +1,6 @@
 # Objectives & Performance Metrics {#objectives}
 
+(Tuesday 9:30 - 10:30)
 <!-- ## Walk-through of day 2 exercises -->
 
 <!-- ::: {.application-exercise}  -->
@@ -36,7 +37,7 @@
 **Objectives & Performance metrics**
 
 ::: 
-<!-- {.slides} -->
-<!-- [Slides](https://docs.google.com/presentation/d/1plPWxrybwQnZoIlfZri72wSp_muoasZ-rweagUkk1oU/edit?usp=sharing) -->
-<!-- ::: -->
-<!-- ::: -->
+{.slides}
+[Slides](https://docs.google.com/presentation/d/11t32u08zc8_nsxTJllaAmMhXsuQKLr7NMwbrG0j_Dw0/edit?usp=sharing) 
+:::
+:::

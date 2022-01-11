@@ -1,24 +1,8 @@
 # Operating Models  {#op-mods}
 
-<!-- (Tuesday 9-10, 10:30-12) -->
-<!-- (Thursday 9-10, 10:30-12) -->
+(Tuesday 2-3)
+(Thursday 9-10)
 
-<!-- ## My first MSE revisited -->
-
-<!-- ::: {.application-exercise}  -->
-<!-- **Day 2 version of My first MSE (R tutorial / exercise)** -->
-
-<!-- The best way to interact with the tutorial is through [RStudio](https://github.com/gavinfay/asmfc-mse/issues/2) or [RStudio Cloud](https://github.com/gavinfay/asmfc-mse/issues/1). -->
-
-<!-- ::: {.source} -->
-<!-- [R Markdown](https://github.com/gavinfay/asmfc-mse/tree/main/materials/exercises/day-02/my-first-mse.Rmd) -->
-<!-- ::: -->
-
-<!-- ::: {.tutorial} -->
-<!-- [knitted pdf](https://github.com/gavinfay/asmfc-mse/tree/main/materials/exercises/day-01/my-first-mse.pdf) -->
-<!-- ::: -->
-
-<!-- ::: -->
 
 ## Designing Operating Models
 
@@ -26,10 +10,10 @@
 **Developing Operating Models**
 
 ::: 
-<!-- {.slides} -->
-<!-- [Slides](https://docs.google.com/presentation/d/1B_Qsv02g6HhxoeprYFOafJwRXlZU620LsHZEa_QpgiA/edit?usp=sharing) -->
-<!-- ::: -->
-<!-- ::: -->
+{.slides}
+[Slides](https://docs.google.com/presentation/d/13khlyWPPfWQoBvi4p8hzw9g_rFwLnjWmRItpzdSbIjI/edit#slide=id.ge711a8a8a6_0_401)
+:::
+:::
 
 
 ## Implementing Operating Models {#coding-oms}
