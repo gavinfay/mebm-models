@@ -41,7 +41,7 @@
 :::
 :::
 
-;;; {.micrphone}
+;;; {.microphone}
 [Zoom recording Day 2 am](https://umassd.zoom.us/rec/share/ubW45z92At0CtslS6uHfiWFlgGHMhZLKWEa4Zmz03m_mdBok6ASXAsa4ZTrvgNZU.ZvBAW_hj5QvBp-vR)
 :::
 
