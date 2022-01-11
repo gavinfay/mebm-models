@@ -44,3 +44,11 @@ The best way to interact with the tutorial is through [RStudio](https://github.c
 ::: {.tutorial}
 [knitted pdf](https://github.com/gavinfay/cinar-mse/tree/main/materials/exercises/day-01/my-first-mse.pdf)
 :::
+
+## Day 1 Zoom recording
+
+::: {.microphone}
+[Zoom recording](https://umassd.zoom.us/rec/share/hY5NeqN3f5SWHU5mSheH7KQ3YynFQTgOSWBAkTisrsn56oFbdCmUR116RvdJhklP.Js2mzUWkMjvyar58)
+[Zoom recording with transcript](https://umassd.zoom.us/rec/share/yTTCcaMWVTtWOLBDCD3Wf5MlmHyH68fA-3KFouUNdJBcKGEI3EAeKJJwEPvphNiD.NcM7py-JNL3UPCK8)
+:::
+
