@@ -9,12 +9,14 @@
 ::: {.slide-deck}
 **Developing Operating Models**
 
-::: 
-{.slides}
+::: {.slides}
 [Slides](https://docs.google.com/presentation/d/13khlyWPPfWQoBvi4p8hzw9g_rFwLnjWmRItpzdSbIjI/edit#slide=id.ge711a8a8a6_0_401)
 :::
 :::
 
+::: {.microphone}
+[Zoom recording Day 2pm](https://umassd.zoom.us/rec/share/b2cmDNCdzGo7RfftrVBYVIrEMT-gOOqNli7M7_-mQBl2FckKR4tze3pgWzTUIKDb.GYbdLRkGFmF0Qwlw)
+:::
 
 ## Implementing Operating Models {#coding-oms}
 
@@ -26,15 +28,16 @@ R lab exercise extending our example to compare OMs
 The best way to interact with the tutorial is through [RStudio](https://github.com/gavinfay/cinar-mse/issues/2) or [RStudio Cloud](https://github.com/gavinfay/cinar-mse/issues/1).
 
 :::
-<!-- ::: {.source} -->
-<!-- [R Markdown](https://github.com/gavinfay/asmfc-mse/tree/main/materials/exercises/day-02/alternative-oms.Rmd) -->
-<!-- ::: -->
+::: {.source}
+[R Markdown](https://github.com/gavinfay/asmfc-mse/tree/main/materials/exercises/day-02/alternative-oms.Rmd)
+:::
 
-<!-- ::: {.tutorial} -->
-<!-- [knitted pdf](https://github.com/gavinfay/asmfc-mse/tree/main/materials/exercises/day-02/alternative-oms.pdf) -->
-<!-- ::: -->
+::: {.tutorial}
+[knitted pdf](https://github.com/gavinfay/asmfc-mse/tree/main/materials/exercises/day-02/alternative-oms.pdf)
+:::
+:::
 
-<!-- ::: -->
+
 
 
 ## Additional Operating Model considerations {#oms-revisited}
