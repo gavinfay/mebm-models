@@ -1,0 +1,153 @@
+---
+title: "CINAR MSE Workshop: Model-based Estimation Model"
+author: "Gavin Fay"
+date: "January 2022"
+output: pdf_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Replacing our assessment with an estimation model
+
+In the previous examples we used our survey index as the estimate of abundance.
+
+Here we will instead use a model-based estimator, and fit a Schaefer model to the data from the OM to estimate MSY reference points for use in the control rule.
+(hint we can reuse the code we developed to condition the OM)
+
+1. Build a function for fitting an estimation model to the index.i time series (don't fit to the future time steps that haven't happened yet)
+2. Calculate the TAC based on the last year's (model-estiamted) biomass and the estimate of FMSY (r/2) from the fitted model.
+3. run a FMSY based control rule
+
+_Stretch-goal_ 
+
+4. Compare the performance of the EM-based strategy when the OM is the Pella-Tomlinson model.
+
+
+#### first load packages
+ 
+```{r, results='hide'}
+#install.packages('ggplot2')
+library(tidyverse)
+library(ggdist)
+library(Hmisc)
+library(mvtnorm)
+```
+
+#### load the functions we created yesterday
+(sourced from a script to make things easy and reduce clutter in this document)
+```{r}
+source("mse-functions.R")
+```
+
+First task is to create a function for the estimation moodel that will use the index data and call the 'assess()' function.
+```{r, include=FALSE}
+em_evaluate <- function(pars.iter, biomass.iter,
+                     control.pars, data.years, proj.years,
+                     iterations, true.m = 2, est.m = 2) {
+    # function arguments:
+    # pars.iter & biomass.iter, the parameters & historical biomass trajectories of the operating model
+    # control.pars, the specifications of the harvest control rule
+    ini.parms <- c(log(1200), log(0.1), log(0.3))  
+  
+    # set up some indexing values
+    iyr <- length(data.years)+1
+    pyr <- length(proj.years)
+    yrs <- c(data.years, proj.years, max(proj.years)+1)
+    
+    # set up a data frame to store the results
+    res <- data.frame()
+    
+    # loop over the iterations of the MSE, each iteration conducts a 20 year projection with annual generation of biomass    
+    # observations and appliations of the control rule.
+    for(i in 1:iterations) {
+      
+      #extract the parameters for this iteration
+      K.i <- exp(pars.iter[i,1])
+      r.i <- pars.iter[i,2]
+      sig.i <- pars.iter[i,3]
+      
+      #set up vectors for time series of interest.
+      biomass.i <- c(subset(biomass.iter, iter==i)$biomass, numeric(pyr))
+      index.i <- c(index,numeric(pyr))
+      catch.i <- c(harvest, numeric(pyr))
+      TAC.i <- numeric(pyr)
+      
+      # loop over the projection period.
+      for (y in iyr:(iyr+pyr-1)) {
+        #generate the data for the most recent year
+        index.i[y] <- observe(biomass.i[y] , sig.i)
+        #calculate the TAC based on the harvest control rule
+        # note that the control rule ONLY sees the index data, not the operating model biomass.
+        
+        # Run a Schaefer production model as the Estimation model
+        assess.i <- assess(catch.i[1:y-1],index.i[1:y-1],calc.vcov=TRUE,ini.parms, m = est.m)
+        
+        # Make the TAC a function of the estimation model results & FMSY (r/2)
+        TAC.i[y] <- assess.i$biomass[y]*(exp(assess.i$pars[2])/2)
+        
+        #TAC.i [y]  <- control(index.i[y], control.pars) * index.i[y]
+        #find the realized catch after implementation error
+        catch.i[y] <- implement(TAC.i[y])
+        
+        # update the true biomass of the operating model based on the output of the HCR
+        biomass.i[y+1] <- pellat(biomass.i[y],catch.i[y],K.i,r.i, m = true.m)
+      
+      #end projection year loop for iteration i  
+      }
+     
+      #store the results for this iteration
+      res <- rbind(res, data.frame(year = yrs[-length(yrs)],
+                                   value = index.i, type = "index", iter = i),
+                   data.frame(year = yrs[-length(yrs)],
+                              value = catch.i, type = "catch", iter=i),
+                   data.frame(year = yrs, value = biomass.i,
+                              type= "biomass", iter=i),
+                   data.frame(year = yrs[-length(yrs)],
+                              value = TAC.i, type = "tac", iter=i)) 
+    #end loop over iterations
+    }
+    return(res)
+#end function evaluate()
+}
+```
+
+#### Setting up the Operating Model
+
+load data
+```{r}
+data.years <- 1991:2013
+harvest <- c(0.1,3,15,52,76,139,95,93,84,93,86,103,104,
+             92,46,67,59,30,54,59,47,33,44)
+index <- c(NA,NA,NA,NA,NA,NA,NA,NA,935,NA,1057,NA,678,NA,
+           420,NA,554,NA,458,NA,474,NA,280)
+```
+
+Load the conditioned OM
+```{r}
+schaefer_fit <- readRDS("schaefer_om.rds")
+pars.iter <- schaefer_fit$pars
+biomass.iter <- schaefer_fit$bio
+```
+
+#### Applying the Management Strategy  
+
+Define the years for the projection:  
+```{r}
+proj.years <- 2014:2034
+```
+
+conduct the evaluation with the model-based estimation method
+```{r}
+project.emhcr <- em_evaluate(pars.iter, biomass.iter, control.pars,
+                        data.years, proj.years, iterations=3, true.m = 2, est.m = 2)
+```
+
+Plot the trajectories:  
+```{r}
+projection.plot(project.emhcr)
+```
+
+

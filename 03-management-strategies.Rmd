@@ -13,3 +13,15 @@
 :::
 :::
 
+::: {.application-exercise}
+**Model-based management strategy**
+
+::: {.source}
+[R Markdown](https://github.com/gavinfay/cinar-mse/tree/main/materials/exercises/day-03/model-based-em.Rmd)
+:::
+
+::: {.tutorial}
+[knitted pdf](https://github.com/gavinfay/cinar-mse/tree/main/materials/exercises/day-03/model-based-em.pdf)
+:::
+
+:::
