@@ -1,6 +1,6 @@
 # Management Strategies  {#management}
 
-<!-- (Tuesday 1-2:30) -->
+(Wednesday 1-2:30)
 
 ## Selecting Management Strategies
 
@@ -8,8 +8,8 @@
 **Management Strategies**
 
 :::
-<!-- ::: {.slides} -->
-<!-- [Slides](https://docs.google.com/presentation/d/1HTzFsh_OmwjeBFdsXzJP0IOX59ghw02y08RG9-Wbz5k/edit?usp=sharing) -->
-<!-- ::: -->
-<!-- ::: -->
+::: {.slides}
+[Slides](https://docs.google.com/presentation/d/13gmZ3TTeiUFbM4Q7ou0tI9VeEl9BAFjJWfxJS1QKRLQ/edit?usp=sharing)
+:::
+:::
 

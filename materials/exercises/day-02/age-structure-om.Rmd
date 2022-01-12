@@ -20,10 +20,10 @@ source("performance-metrics.R")
 
 
 ```{r}
-my_future_options <- future_options()
-my_future_options$globals <- ls()
-my_future_options$packages <- c("tidyverse")
-future::plan(future::multisession)
+# my_future_options <- future_options()
+# my_future_options$globals <- ls()
+# my_future_options$packages <- c("tidyverse")
+# future::plan(future::multisession)
 ```
 
 

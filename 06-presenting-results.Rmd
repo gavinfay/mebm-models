@@ -1,6 +1,6 @@
 # Communication  {#communication}
 
-<!-- (Wednesday 3:30-5) -->
+(Wednesday 4-5)
 
 ## Presenting Results
 
@@ -8,8 +8,8 @@
 **Presenting results to managers**
 
 :::
-<!-- ::: {.slides} -->
-<!-- [Slides](https://docs.google.com/presentation/d/180Bzo7YDBi1n4FwvI5WwPVDS2e73NVTu0lu0ll-D0sw/edit?usp=sharing) -->
-<!-- ::: -->
-<!-- ::: -->
+::: {.slides}
+[Slides](https://docs.google.com/presentation/d/1uUpPnwKNfb3G8seSnOBoX6IGLH2VCW9_eEJPdweEsfY/edit?usp=sharing)
+:::
+:::
 
