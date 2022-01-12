@@ -66,8 +66,8 @@ em_evaluate <- function(pars.iter, biomass.iter,
       
       #extract the parameters for this iteration
       K.i <- exp(pars.iter[i,1])
-      r.i <- pars.iter[i,2]
-      sig.i <- pars.iter[i,3]
+      r.i <- exp(pars.iter[i,2])
+      sig.i <- exp(pars.iter[i,3])
       
       #set up vectors for time series of interest.
       biomass.i <- c(subset(biomass.iter, iter==i)$biomass, numeric(pyr))
@@ -142,7 +142,7 @@ proj.years <- 2014:2034
 conduct the evaluation with the model-based estimation method
 ```{r}
 project.emhcr <- em_evaluate(pars.iter, biomass.iter, control.pars,
-                        data.years, proj.years, iterations=3, true.m = 2, est.m = 2)
+                        data.years, proj.years, iterations=25, true.m = 2, est.m = 2)
 ```
 
 Plot the trajectories:  
