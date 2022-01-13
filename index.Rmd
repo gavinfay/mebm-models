@@ -61,12 +61,13 @@ _(subject to change)_
 | W | 1-2:30 | [selecting management strategies (lecture, R: comparing HCRs)](#management-strategies) |
 | W | 3-4 | breakout group coding on case study projects |
 | W | 4-5 | [Presenting results to managers (lecture)](#communication) |
-| Th | 9-10 | [OM and EMs revisited (lecture, live code)](#oms-revisited) |
+| Th | 9-9:30 | Reading discussion
+| Th | 9:30-10:15 | [Implementation error (lecture)](#implementation) |
 | Th | 10:15-12 | Case study project work time |
-| Th | 1-2 | [Implementation error (lecture)](#implementation) |
-| Th | 2-3 | Case study project work time |
-| Th | 3-5 | [multispecies MSEs (lecture, R exercise)](#ecosystem-mse) |
-| F | 9-10 | [Additional MSE topics (lecture)](#grab-bag) |
+| Th | 1-1:45 | Atlantic bluefin tuna case study (lecture/discussion) |
+| Th | 1:45-3:30 | Case study project work time |
+| Th | 3:30-5 | [multispecies MSEs (lecture, R exercise)](#ecosystem-mse) |
+| F | 9-10 | [OMs & EMs revisited](#oms-revisited), [Additional MSE topics (lecture)](#grab-bag) |
 | F | 10:30-12 | Case study project summaries, Workshop review |
 
 [Breakout Group Assignments](https://docs.google.com/spreadsheets/d/1RlRCivOBiYB7phizz4YKWoDLTE5WbdSMnL29_3oIb-c/edit?usp=sharing)
