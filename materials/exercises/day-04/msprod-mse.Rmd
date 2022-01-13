@@ -261,7 +261,7 @@ theguilds <- c(1,1,2,2,1,3,3,1,1,1)
 ```{r}
 set.seed(1138)
 # Try different values for the harvest rates for each guild
-ALL.results <- do_ms_mse(Nsims=10, FtargG = 0.3, FtargP = 0.2, FtargE = 0.05)
+system.time(ALL.results <- do_ms_mse(Nsims=50, FtargG = 0.3, FtargP = 0.2, FtargE = 0.05))
 
 #print(ALL.results)
  cat("Expected total biomass:", mean(ALL.results[,1]),"\n")
