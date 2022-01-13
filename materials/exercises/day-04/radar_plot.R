@@ -80,7 +80,7 @@ legend("topleft",inset=-.01,title ="HCR",title.adj = 0.2,
 
 }
 
-metrics <- tibble(metric = rep(letters[1:5],each=3),
-                  value = runif(15),
-                  mp = as.character(rep(1:3,5)))
-do_radar_plot(metrics)
+# metrics <- tibble(metric = rep(letters[1:5],each=3),
+#                   value = runif(15),
+#                   mp = as.character(rep(1:3,5)))
+# do_radar_plot(metrics)
