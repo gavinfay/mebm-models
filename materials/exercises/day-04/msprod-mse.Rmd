@@ -9,6 +9,11 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+###Goals:  
+1. Use a multispecies MSE based on a multispecies production model for the operating model, & single-species assessments (index-based) with guild-based harvest rates.
+2. Explore how the choice for harvest rates in control rules for groundfish (based on status of cod) and pelagics (based on leaving enough food for predators) influences the performance metrics at the species and ecosystem level.   
+3. _stretch_ explore how different shapes of control rules further influence system behavior.  
+
 ```{r}
 ########  MS-PROD MSE Wrapper
 ########  Gavin Fay
@@ -153,6 +158,8 @@ theguilds <- c(1,1,2,2,1,3,3,1,1,1)
 ############################################
 # RUN MSE WITH SINGLE SPECIES ASSESSMENT
 ############################################
+do_ms_mse <- function(Nsims = 1, FtargG = 0.1, FtargP = 0.1, FtargE = 0.05) {
+  
 #set up a storage object to contain results for each simulation
 ALL.results <- matrix(NA,nrow=Nsims,ncol=4+Nsp)
 
@@ -160,7 +167,6 @@ ALL.results <- matrix(NA,nrow=Nsims,ncol=4+Nsp)
 for (isim in 1:Nsims)
  {
   ### calculate values for ecological indicators at start of projection
-  # AEP:IS BMSY correct
   ei <- get.Indicators(Biomass=NI,Catch=CI,BMSY=BMSY[,2],trophic.level=BMSY[,3],is.predator=which(colSums(alpha)>0),is.pelagic=which(theguilds==2)) 
   ei <- as.data.frame(ei)
   ei.new <- as.numeric(ei[nrow(ei),])
@@ -179,17 +185,17 @@ for (isim in 1:Nsims)
     #print(NI.obs)
     # hrate for groundfish depends on cod
     if (NI.obs[Qyr2,1] > 0.5*mean(NI.obs[1:10,1]))
-     hrateG <- 0.1
+     hrateG <- FtargG #0.1
     else
      hrateG <-0.1*NI.obs[Qyr2,1]/mean(NI.obs[1:10,1])
     # hrate for pelagics is 0.1 unless there is not enough prey
     if (NI.obs[Qyr2,4]+NI.obs[Qyr2,5] > 1000)
-      hrateP <- 0.3
+      hrateP <- FtargP
     else
       hrateP <- 0
     # hrate for sharks and skates is 0.05 unless we are approximately overfished
     if (NI.obs[Qyr2,7]+NI.obs[Qyr2,8] >  0.5*mean(NI.obs[1:10,7])+0.5*mean(NI.obs[1:10,8]))
-      hrateE <- 0.05
+      hrateE <- FtargE
     else
       hrateE <- 0
 
@@ -215,7 +221,6 @@ for (isim in 1:Nsims)
     CI.obs <- rbind(CI.obs,Cobs)
     
     #calculate ecological indicators based on new data at this time step
-    # AEP:IS BMSY correct
     ei <- get.Indicators(Biomass=NI.obs,Catch=CI.obs,BMSY=BMSY[,2],trophic.level=BMSY[,3],is.predator=which(colSums(alpha)>0),is.pelagic=which(theguilds==2)) 
     ei <- as.data.frame(ei)
     ei.now <- as.numeric(ei[nrow(ei),])
@@ -233,8 +238,19 @@ for (isim in 1:Nsims)
  ALL.results[isim,4] <- mean(ei$prop.overfished[(Qyr-9):Qyr])
  for (Isp in 1:Nsp)
    ALL.results[isim,4+Isp] <- sum(ei[(Qyr-9):Qyr,11+Isp])
- }
- print(ALL.results)
+
+}
+ return(ALL.results)
+}
+```
+
+# RUN THE MSE
+```{r}
+set.seed(1138)
+# Try different values for the harvest rates for each guild
+ALL.results <- do_ms_mse(Nsims=5, FtargG = 0.1, FtargP = 0.3, FtargE = 0.05)
+
+print(ALL.results)
  cat("Expected total biomass:", mean(ALL.results[,1]),"\n")
  cat("Expected total catch:", mean(ALL.results[,2]),"\n")
  cat("Median revenue:", median(ALL.results[,3]),"\n")
@@ -242,6 +258,5 @@ for (isim in 1:Nsims)
  cat("Expected probability overfished:", mean(ALL.results[,4]),"\n")
  for (Isp in 1:Nsp)
   cat("Probability overfished:", as.character(BMSY[Isp,1]),mean(ALL.results[,4+Isp])/10,"\n")
-
 ```
 

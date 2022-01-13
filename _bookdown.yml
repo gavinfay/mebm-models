@@ -10,7 +10,7 @@ rmd_files: [
   "03-management-strategies.Rmd",
 #  "05-stakeholder-engagement.Rmd",
   "06-presenting-results.Rmd",
-#  "07-ecosystem-mse.Rmd",
+  "07-ecosystem-mse.Rmd",
 #  "08-additional-topics.Rmd",
   "02-case-studies.Rmd"
  ]
