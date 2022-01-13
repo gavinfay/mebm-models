@@ -62,7 +62,7 @@ get.Indicators <- function(Biomass=NULL,Catch=NULL,size=NULL,trophic.level=NULL,
   tot.cat <- rowSums(Catch,na.rm=TRUE)
   # Exploitation rate
   tot.rev <- rep(0,Nyr)
-  for (Iyr in 1:Nyr) tot.rev[Iyr] <- sum(Catch[Iyr,]*Rev)
+  for (Iyr in 1:Nyr) tot.rev[Iyr] <- sum(as.numeric(Catch[Iyr,])*Rev)
   exprate <- tot.cat/tot.bio
   # mean.length <- sum(Biomass*size,na.rm=TRUE)/sum(Biomass,na.rm=TRUE)
   # Trophic level of landings
@@ -80,9 +80,9 @@ get.Indicators <- function(Biomass=NULL,Catch=NULL,size=NULL,trophic.level=NULL,
   prop.overfished <- rep(NA,Nyr)
   for (i in 1:nrow(Biomass)) 
   {
-    TL.landings[i] <- sum(trophic.level*Catch[i,],na.rm=TRUE)/sum(Catch[i,],na.rm=TRUE)
-    TL.survey[i] <- sum(trophic.level*Biomass[i,],na.rm=TRUE)/sum(Biomass[i,],na.rm=TRUE)
-    b.use <- Biomass[i,]
+    TL.landings[i] <- sum(trophic.level*as.numeric(Catch[i,]),na.rm=TRUE)/sum(as.numeric(Catch[i,]),na.rm=TRUE)
+    TL.survey[i] <- sum(trophic.level*as.numeric(Biomass[i,]),na.rm=TRUE)/sum(as.numeric(Biomass[i,]),na.rm=TRUE)
+    b.use <- as.numeric(Biomass[i,])
     prop.overfished[i] <- length(b.use[b.use<0.5*BMSY])/length(b.use)
     for (k in 1:Nsp)
      if (b.use[k] < 0.5*BMSY[k]) prop.overfishedSp[i,k] <- 1
@@ -159,13 +159,25 @@ theguilds <- c(1,1,2,2,1,3,3,1,1,1)
 # RUN MSE WITH SINGLE SPECIES ASSESSMENT
 ############################################
 do_ms_mse <- function(Nsims = 1, FtargG = 0.1, FtargP = 0.1, FtargE = 0.05) {
+
   
+#reset settings
+  
+    
 #set up a storage object to contain results for each simulation
 ALL.results <- matrix(NA,nrow=Nsims,ncol=4+Nsp)
 
 #do a bunch of simulations
 for (isim in 1:Nsims)
  {
+  
+#initial biomass for each species
+N <- Initvals
+# Set projection horizon
+Nyr <- 30
+#redefine functional groups
+theguilds <- c(1,1,2,2,1,3,3,1,1,1)
+  
   ### calculate values for ecological indicators at start of projection
   ei <- get.Indicators(Biomass=NI,Catch=CI,BMSY=BMSY[,2],trophic.level=BMSY[,3],is.predator=which(colSums(alpha)>0),is.pelagic=which(theguilds==2)) 
   ei <- as.data.frame(ei)
@@ -184,7 +196,7 @@ for (isim in 1:Nsims)
     Qyr2 <- nrow(NI.obs)
     #print(NI.obs)
     # hrate for groundfish depends on cod
-    if (NI.obs[Qyr2,1] > 0.5*mean(NI.obs[1:10,1]))
+    if (NI.obs[Qyr2,1] > 0.5*mean(NI.obs[1:10,1])) 
      hrateG <- FtargG #0.1
     else
      hrateG <-0.1*NI.obs[Qyr2,1]/mean(NI.obs[1:10,1])
@@ -199,9 +211,10 @@ for (isim in 1:Nsims)
     else
       hrateE <- 0
 
-    hrate[theguilds==1] <- hrateG
-    hrate[theguilds==2] <- hrateP
-    hrate[theguilds==3] <- hrateE
+
+    hrate[theguilds==1] <- hrateG*NI.obs[Qyr2,1]/N[1]
+    hrate[theguilds==2] <- hrateP*mean(as.numeric(NI.obs[Qyr2,4:5])/N[4:5],na.rm=TRUE)
+    hrate[theguilds==3] <- hrateE*mean(as.numeric(NI.obs[Qyr2,7:8])/N[7:8],na.rm=TRUE)
     ### update operating model with new exploitation rates
     parms=list(r=r,KGuild=KGuild,Ktot=Ktot,Guildmembership=Guildmembership,BetweenGuildComp=BetweenGuildComp,WithinGuildComp=WithinGuildComp,alpha=alpha,hrate=hrate)
     x <- ode(N,seq(iyr-1,(iyr+0.5),0.5),dNbydt,parms=parms,method="rk4")
@@ -248,13 +261,13 @@ for (isim in 1:Nsims)
 ```{r}
 set.seed(1138)
 # Try different values for the harvest rates for each guild
-ALL.results <- do_ms_mse(Nsims=5, FtargG = 0.1, FtargP = 0.3, FtargE = 0.05)
+ALL.results <- do_ms_mse(Nsims=10, FtargG = 0.3, FtargP = 0.2, FtargE = 0.05)
 
-print(ALL.results)
+#print(ALL.results)
  cat("Expected total biomass:", mean(ALL.results[,1]),"\n")
  cat("Expected total catch:", mean(ALL.results[,2]),"\n")
  cat("Median revenue:", median(ALL.results[,3]),"\n")
- cat("Median revenue:", quantile(ALL.results[,3],prob=0.05),"\n")
+ #cat("Median revenue:", quantile(ALL.results[,3],prob=0.05),"\n")
  cat("Expected probability overfished:", mean(ALL.results[,4]),"\n")
  for (Isp in 1:Nsp)
   cat("Probability overfished:", as.character(BMSY[Isp,1]),mean(ALL.results[,4+Isp])/10,"\n")
