@@ -7,7 +7,6 @@
 ::: {.slide-deck}
 **Management Strategies**
 
-:::
 ::: {.slides}
 [Slides](https://docs.google.com/presentation/d/13gmZ3TTeiUFbM4Q7ou0tI9VeEl9BAFjJWfxJS1QKRLQ/edit?usp=sharing)
 :::
