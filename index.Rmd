@@ -16,21 +16,12 @@ description: "This is a CINAR-supported training course at UMass Dartmouth to be
 
 **Description**: This course provides instruction, demonstration, and exercises in quantitative modeling tools used for Ecosystem Based Management (EBM) of living marine resources. There is an increasing need for fisheries and wildlife professionals to provide scientific advice for management in an ecosystem context. Part 1 of the course will provide students with hands on experience applying fisheries stock assessment and population models that include ecosystem effects, and consider the policy implications of including this information. Part 2 of the course will focus on broader multiple-use and human dimensions and include economic and behavioral models and models for marine spatial planning. The final section of the course will introduce whole-of-ecosystem models and demonstrate how these can be used to provide strategic advice for marine management and consider a broad suite of objectives. Although the examples used will be in a marine context, the types of models and methods discussed in the course have application in other systems.
 
-**Course Objectives**: 1. Familiarity with a range of models used for ecosystem-based management and experience using some of them. 2. Understanding of the benefits, challenges, and limitations of using these models to provide scientific advice for management.
+**Course Objectives**: 
+1. Familiarity with a range of models used for ecosystem-based management and experience using some of them. 
+2. Understanding of the benefits, challenges, and limitations of using these models to provide scientific advice for management.
 
 **Code of Conduct**;
 These workshops follow the [Fay Lab code of conduct:](https://thefaylab.github.io/lab-manual/code)  
-
-**Class modality**: Current plan is for the course to be offered in person at UMassD-SMAST in New Bedford, with all course sessions also available for remote attendance via Zoom. There are two sub-module 'workshops' during the course - a TMB training in September, and a sequence of class sessions on the R implementation of Ecopath with Ecosim (EwE) foodweb modeling software, `Rpath`. Students who are interested in attending just one or both of these sub-modules should email Dr. Fay ASAP.
-
-**Prerequisites**: Students should have taken coursework in applied statistics (e.g. MAR 535, Biological Statistics), or equivalent. Experience with the programming language R at the advanced beginner level is required (contact Dr. Fay if you would like recommendations for brief training materials that cover the necessary background). Students should also be familiar with modeling and estimation approaches for fisheries assessment and conservation management (e.g. MAR544), or seek permission from the instructor. While MAR530 (ecosystem-based fisheries management) provides useful background material for this class, it is not required.
-
-**Homework assignments & Course Project**: 1. Five homework assignments (12% each). 2. Final project (40%). The aim of the project will be to apply some of the modeling methods covered during the course to a research-related task, and can be carried out individually or in small groups (2-3). For group projects, all group members must have readily-identifiable tasks and the same grade for the project will be assigned to all members of a group. Students are encouraged to select topics which are relevant to their thesis research and/or could form the basis for a short publication.
-
-**Course materials**: This website (built in R!) provides access to the workshop materials and will be updated during the course as we progress (and adapt).
-
-**This website**: <https://gavinfay.github.io/mebm-models/>\
-**GitHub repo**: <https://github.com/gavinfay/mebm-models>
 
 ------------------------------------------------------------------------
 
@@ -72,6 +63,19 @@ These workshops follow the [Fay Lab code of conduct:](https://thefaylab.github.i
 | 6-Dec  | 15   | T   | Multicriteria Decision Analysis                            |
 | 8-Dec  | 15   | Th  | NO CLASS                                                   |
 | 13-Dec | 16   | T   | Project presentations                                      |
+
+------------------------------------------------------------------------
+
+**Class modality**: Current plan is for the course to be offered in person at UMassD-SMAST in New Bedford, with all course sessions also available for remote attendance via Zoom. There are two sub-module 'workshops' during the course - a TMB training in September, and a sequence of class sessions on the R implementation of Ecopath with Ecosim (EwE) foodweb modeling software, `Rpath`. Students who are interested in attending just one or both of these sub-modules should email Dr. Fay ASAP.
+
+**Prerequisites**: Students should have taken coursework in applied statistics (e.g. MAR 535, Biological Statistics), or equivalent. Experience with the programming language R at the advanced beginner level is required (contact Dr. Fay if you would like recommendations for brief training materials that cover the necessary background). Students should also be familiar with modeling and estimation approaches for fisheries assessment and conservation management (e.g. MAR544), or seek permission from the instructor. While MAR530 (ecosystem-based fisheries management) provides useful background material for this class, it is not required.
+
+**Homework assignments & Course Project**: 1. Five homework assignments (12% each). 2. Final project (40%). The aim of the project will be to apply some of the modeling methods covered during the course to a research-related task, and can be carried out individually or in small groups (2-3). For group projects, all group members must have readily-identifiable tasks and the same grade for the project will be assigned to all members of a group. Students are encouraged to select topics which are relevant to their thesis research and/or could form the basis for a short publication.
+
+**Course materials**: This website (built in R!) provides access to the workshop materials and will be updated during the course as we progress (and adapt).
+
+**This website**: <https://gavinfay.github.io/mebm-models/>\
+**GitHub repo**: <https://github.com/gavinfay/mebm-models>
 
 ------------------------------------------------------------------------
 
