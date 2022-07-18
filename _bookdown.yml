@@ -1,18 +1,18 @@
-book_filename: "CINAR Intro MSE"
+book_filename: "Models for Marine Ecosystem-Based Management"
 language:
   ui:
     chapter_name: "Chapter "
 rmd_files: [
   "index.Rmd",
-  "01-intro-mse.Rmd",
-  "04-objectives.Rmd",
-  "02-operating-models.Rmd",
-  "03-management-strategies.Rmd",
-#  "05-stakeholder-engagement.Rmd",
-  "06-presenting-results.Rmd",
-  "07-ecosystem-mse.Rmd",
-  "08-additional-topics.Rmd",
-  "02-case-studies.Rmd"
+#   "01-intro-mse.Rmd",
+#   "04-objectives.Rmd",
+#   "02-operating-models.Rmd",
+#   "03-management-strategies.Rmd",
+# #  "05-stakeholder-engagement.Rmd",
+#   "06-presenting-results.Rmd",
+#   "07-ecosystem-mse.Rmd",
+#   "08-additional-topics.Rmd",
+#   "02-case-studies.Rmd"
  ]
 delete_merged_file: true
 output_dir: "docs"
