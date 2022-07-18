@@ -8,7 +8,7 @@
 
 ------------------------------------------------------------------------
 
-## Agenda {.unnumbered}
+## Agenda
 
 *(subject to change)*
 
@@ -68,17 +68,17 @@
 
 ------------------------------------------------------------------------
 
-## Pre-course preparations {.unnumbered}
+## Pre-course preparations
 
 [to come]
 
 For R, there are two options: either have R & RStudio downloaded on your machine, or use a RStudio Cloud project created for this workshop (recommended).
 
-## Licensing {.unnumbered}
+## Licensing 
 
 All materials are released with [Creative Commons Attribution Share Alike 4.0 International](LICENSE.md) license.
 
-## Acknowledgements {.unnumbered}
+## Acknowledgements 
 
 This website is built with [bookdown](https://bookdown.org/)., and the lovely icons by [icons8](http://icons8.com/). The course website design was based on both the [R for Excel Users](https://rstudio-conf-2020.github.io/r-for-excel/) course by Julie Lowndes & Allison Horst, and the [Data Science in a Box](https://datasciencebox.org/) course by Mine Çetinkaya-Rundel, and previous course materials developed by Gavin Fay. All errors are purely by Gavin.
 Footer
