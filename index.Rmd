@@ -16,12 +16,9 @@ description: "This is a CINAR-supported training course at UMass Dartmouth to be
 
 **Description**: This course provides instruction, demonstration, and exercises in quantitative modeling tools used for Ecosystem Based Management (EBM) of living marine resources. There is an increasing need for fisheries and wildlife professionals to provide scientific advice for management in an ecosystem context. Part 1 of the course will provide students with hands on experience applying fisheries stock assessment and population models that include ecosystem effects, and consider the policy implications of including this information. Part 2 of the course will focus on broader multiple-use and human dimensions and include economic and behavioral models and models for marine spatial planning. The final section of the course will introduce whole-of-ecosystem models and demonstrate how these can be used to provide strategic advice for marine management and consider a broad suite of objectives. Although the examples used will be in a marine context, the types of models and methods discussed in the course have application in other systems.
 
-**Course Objectives**: 
-1. Familiarity with a range of models used for ecosystem-based management and experience using some of them. 
-2. Understanding of the benefits, challenges, and limitations of using these models to provide scientific advice for management.
+**Course Objectives**: 1. Familiarity with a range of models used for ecosystem-based management and experience using some of them. 2. Understanding of the benefits, challenges, and limitations of using these models to provide scientific advice for management.
 
-**Code of Conduct**;
-These workshops follow the [Fay Lab code of conduct:](https://thefaylab.github.io/lab-manual/code)  
+**Code of Conduct**; These workshops follow the [Fay Lab code of conduct:](https://thefaylab.github.io/lab-manual/code)
 
 ------------------------------------------------------------------------
 
@@ -30,7 +27,7 @@ These workshops follow the [Fay Lab code of conduct:](https://thefaylab.github.i
 *(subject to change)*
 
 | Date   | Week | Day | Topic                                                      |
-|---------|-------|------|---------------------------------------------------|
+|--------|------|-----|------------------------------------------------------------|
 | 1-Sep  | 1    | Th  | Introductory material, fisheries assessment methods review |
 | 6-Sep  | 2    | T   | TMB Workshop I                                             |
 | 6-Sep  | 2    | T   | TMB Workshop II                                            |
@@ -86,6 +83,7 @@ These workshops follow the [Fay Lab code of conduct:](https://thefaylab.github.i
 ------------------------------------------------------------------------
 
 ## Pre-course preparations {.unnumbered}
+
 [to come]
 
 For R, there are two options: either have R & RStudio downloaded on your machine, or use a RStudio Cloud project created for this workshop (recommended).
@@ -97,4 +95,3 @@ All materials are released with [Creative Commons Attribution Share Alike 4.0 In
 ## Acknowledgements {.unnumbered}
 
 This website is built with [bookdown](https://bookdown.org/)., and the lovely icons by [icons8](http://icons8.com/). The course website design was based on both the [R for Excel Users](https://rstudio-conf-2020.github.io/r-for-excel/) course by Julie Lowndes & Allison Horst, and the [Data Science in a Box](https://datasciencebox.org/) course by Mine Çetinkaya-Rundel, and previous course materials developed by Gavin Fay. All errors are purely by Gavin.
-
