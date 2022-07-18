@@ -19,10 +19,10 @@
 | 6-Sep  | 2    | T   | TMB Workshop II                                            |
 | 8-Sep  | 2    | Th  | TMB Workshop III                                           |
 | 8-Sep  | 2    | Th  | TMB Workshop IV                                            |
-| 13-Sep | 3    | T   | Guest Lecure, Woods Hole Assessment Model (WHAM)           |
+| 13-Sep | 3    | T   | Guest Lecture, Woods Hole Assessment Model (WHAM)           |
 | 15-Sep | 3    | Th  | Extended Stock assessment models                           |
 | 20-Sep | 4    | T   | Ecosystem Indicator Pressure-Response analyses             |
-| 22-Sep | 4    | Th  | Conceptual ecosystem modeling                              |
+| 22-Sep | 4    | Th  | Guest Lecture, Joint Species Distribution Modeling                              |
 | 27-Sep | 5    | T   | Qualitative modeling                                       |
 | 29-Sep | 5    | Th  | Multispecies models - estimating species interactions      |
 | 4-Oct  | 6    | T   | Models of Intermediate Complexity for Ecosystems (MICE)    |
