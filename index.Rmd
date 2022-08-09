@@ -29,10 +29,10 @@ description: "This is a CINAR-supported training course at UMass Dartmouth to be
 | Date   | Week | Day | Topic                                                      |
 |----------|----------|----------|--------------------------------------------|
 | 1-Sep  | 1    | Th  | Introductory material, fisheries assessment methods review |
-| 6-Sep  | 2    | T   | TMB Workshop I                                             |
-| 6-Sep  | 2    | T   | TMB Workshop II                                            |
-| 8-Sep  | 2    | Th  | TMB Workshop III                                           |
-| 8-Sep  | 2    | Th  | TMB Workshop IV                                            |
+| 6-Sep  | 2    | T   | [TMB Workshop I](#tmb)                                     |
+| 6-Sep  | 2    | T   | [TMB Workshop II](#tmb)                                    |
+| 8-Sep  | 2    | Th  | [TMB Workshop III](#tmb)                                   |
+| 8-Sep  | 2    | Th  | [TMB Workshop IV](#tmb)                                    |
 | 13-Sep | 3    | T   | Guest Lecure, Woods Hole Assessment Model (WHAM)           |
 | 15-Sep | 3    | Th  | Extended Stock assessment models                           |
 | 20-Sep | 4    | T   | Ecosystem Indicator Pressure-Response analyses             |
