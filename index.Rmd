@@ -27,11 +27,12 @@ description: "This is a CINAR-supported training course at UMass Dartmouth to be
 *(subject to change)*
 
 | Date   | Week | Day | Topic                                                      |
-|----------|----------|----------|--------------------------------------------|
+|--------------|--------------|--------------|------------------------------|
+| 1-Sep  | 1    | Th  | Software installation troubleshooting (9am) |
 | 1-Sep  | 1    | Th  | Introductory material, fisheries assessment methods review |
-| 6-Sep  | 2    | T   | [TMB Workshop I](#tmb)                                     |
+| 6-Sep  | 2    | T   | [TMB Workshop I](#tmb)  (9am)                                 |
 | 6-Sep  | 2    | T   | [TMB Workshop II](#tmb)                                    |
-| 8-Sep  | 2    | Th  | [TMB Workshop III](#tmb)                                   |
+| 8-Sep  | 2    | Th  | [TMB Workshop III](#tmb) (9am)                                    |
 | 8-Sep  | 2    | Th  | [TMB Workshop IV](#tmb)                                    |
 | 13-Sep | 3    | T   | Guest Lecure, Woods Hole Assessment Model (WHAM)           |
 | 15-Sep | 3    | Th  | Extended Stock assessment models                           |
@@ -84,9 +85,23 @@ description: "This is a CINAR-supported training course at UMass Dartmouth to be
 
 ## Pre-course preparations {.unnumbered}
 
-[to come]
+***Required hardware:*** Students should have use of a laptop computer for class sessions and assignments. Our class meetings will be a mix of lectures, discussions, and modeling, so it is necessary to have your computer at each meeting.
 
-For R, there are two options: either have R & RStudio downloaded on your machine, or use a RStudio Cloud project created for this workshop (recommended).
+***Software:*** Our course exercises and modeling will primarily be done in R. You should install R and a suitable IDE (RStudio is one of the most common and will be how I work during the course).
+
+If you already have R and RStudio installed on your machine, please take time before the course to install the latest versions, to help mitigate errors with installs and dependencies during the course. Using the most recent versions of these free software also gives you access to the most current functionality of the tools.
+
+All of the course scripts, models, etc. will be tested using R 4.2.1. and RStudio 2022.07.1 (Build 554).
+
+In addition to having R & RStudio downloaded on your machine, there will also be a RStudio Cloud project for the course, which will contain all necessary dependencies and packages used during the course.
+
+[**Install R**](r-project.org)
+
+[**Install RStudio**](https://www.rstudio.com/products/rstudio/)
+
+Necessary libraries, and other pieces of software used in the course will be detailed in the relevant materials.
+
+**Software installation session & TMB:** Gavin will run an optional software installation troubleshooting session at the beginning of the course on Thursday September 01, from 9:00-10:00 in SMAST-E 247. This would be a **GREAT** time to make sure TMB is working on your machine.
 
 ## Licensing {.unnumbered}
 
