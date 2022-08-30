@@ -27,12 +27,12 @@ description: "This is a CINAR-supported training course at UMass Dartmouth to be
 *(subject to change)*
 
 | Date   | Week | Day | Topic                                                      |
-|--------------|--------------|--------------|------------------------------|
-| 1-Sep  | 1    | Th  | Software installation troubleshooting (9am) |
+|---------------|---------------|---------------|---------------------------|
+| 1-Sep  | 1    | Th  | Software installation troubleshooting (9am)                |
 | 1-Sep  | 1    | Th  | Introductory material, fisheries assessment methods review |
-| 6-Sep  | 2    | T   | [TMB Workshop I](#tmb)  (9am)                                 |
+| 6-Sep  | 2    | T   | [TMB Workshop I](#tmb) (9am)                               |
 | 6-Sep  | 2    | T   | [TMB Workshop II](#tmb)                                    |
-| 8-Sep  | 2    | Th  | [TMB Workshop III](#tmb) (9am)                                    |
+| 8-Sep  | 2    | Th  | [TMB Workshop III](#tmb) (9am)                             |
 | 8-Sep  | 2    | Th  | [TMB Workshop IV](#tmb)                                    |
 | 13-Sep | 3    | T   | Guest Lecure, Woods Hole Assessment Model (WHAM)           |
 | 15-Sep | 3    | Th  | Extended Stock assessment models                           |
@@ -102,6 +102,14 @@ In addition to having R & RStudio downloaded on your machine, there will also be
 Necessary libraries, and other pieces of software used in the course will be detailed in the relevant materials.
 
 **Software installation session & TMB:** Gavin will run an optional software installation troubleshooting session at the beginning of the course on Thursday September 01, from 9:00-10:00 in SMAST-E 247. This would be a **GREAT** time to make sure TMB is working on your machine.
+
+## Reading {.unnumbered}
+
+A recommended reading list covering the individual topics will be posted on this website, as well as a Zotero database for the course. There is no required text for this class, though students will find sections of the following books useful.
+
+-   Link, J. 2010. Ecosystem-based fisheries management: confronting tradeoffs. Cambridge Univ. Press, Cambridge.
+-   McLeod, K., & Leslie, H. (Eds.). 2009. Ecosystem-based management for the oceans. Washington, DC, USA: Island Press.
+-   Walters, C. J., & S.J. Martell. 2004. Fisheries ecology and management. Princeton University Press.
 
 ## Licensing {.unnumbered}
 
