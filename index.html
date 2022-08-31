@@ -23,7 +23,7 @@
 <meta name="author" content="Gavin Fay" />
 
 
-<meta name="date" content="2022-08-30" />
+<meta name="date" content="2022-08-31" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -78,7 +78,9 @@
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome</a><ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#agenda"><i class="fa fa-check"></i>Agenda</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#pre-course-preparations"><i class="fa fa-check"></i>Pre-course preparations</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#reading"><i class="fa fa-check"></i>Reading</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#reading"><i class="fa fa-check"></i>Reading</a><ul>
+<li class="chapter" data-level="0.0.1" data-path="index.html"><a href="index.html#title-ix-statement"><i class="fa fa-check"></i><b>0.0.1</b> Title IX statement</a></li>
+</ul></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#licensing"><i class="fa fa-check"></i>Licensing</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#acknowledgements"><i class="fa fa-check"></i>Acknowledgements</a></li>
 </ul></li>
@@ -106,19 +108,31 @@
 <div id="header">
 <h1 class="title">Models for Marine Ecosystem-Based Management</h1>
 <p class="author"><em>Gavin Fay</em></p>
-<p class="date"><em>2022-08-30</em></p>
+<p class="date"><em>2022-08-31</em></p>
 </div>
 <div id="welcome" class="section level1 unnumbered hasAnchor">
 <h1>Welcome<a href="index.html#welcome" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p><em>Models for Marine Ecosystem-Based Management</em>: Hello! This is a course taught by Dr. Gavin Fay at UMass Dartmouth in fall 2022. The course is supported through Dr. Fay’s CINAR fellowship in Quantitative Fisheries and Ecosystem Science. Course can be attended by students and staff at CINAR institutions and all UMass campuses (if you are not at one of these institutions but are interested in the class please <a href="mailto:gfay@umassd.edu">email Gavin</a>).</p>
 <p><strong>Description</strong>: This course provides instruction, demonstration, and exercises in quantitative modeling tools used for Ecosystem Based Management (EBM) of living marine resources. There is an increasing need for fisheries and wildlife professionals to provide scientific advice for management in an ecosystem context. Part 1 of the course will provide students with hands on experience applying fisheries stock assessment and population models that include ecosystem effects, and consider the policy implications of including this information. Part 2 of the course will focus on broader multiple-use and human dimensions and include economic and behavioral models and models for marine spatial planning. The final section of the course will introduce whole-of-ecosystem models and demonstrate how these can be used to provide strategic advice for marine management and consider a broad suite of objectives. Although the examples used will be in a marine context, the types of models and methods discussed in the course have application in other systems.</p>
 <p><strong>Course Objectives</strong>: 1. Familiarity with a range of models used for ecosystem-based management and experience using some of them. 2. Understanding of the benefits, challenges, and limitations of using these models to provide scientific advice for management.</p>
-<p><strong>Code of Conduct</strong>; These workshops follow the <a href="https://thefaylab.github.io/lab-manual/code">Fay Lab code of conduct:</a></p>
+<p><strong>Credits:</strong> 3</p>
+<p><strong>Class modality</strong>: In person at UMassD-SMAST in New Bedford, with all course sessions also available for remote attendance via Zoom. Some guest lectures remote learning only. There are two sub-module ‘workshops’ during the course - a TMB training in September, and a sequence of class sessions on the R implementation of Ecopath with Ecosim (EwE) foodweb modeling software, <code>Rpath</code>. Students who are interested in attending just one or both of these sub-modules should email Dr. Fay ASAP.</p>
+<p><strong>Class location:</strong> SMAST-E 247, synchronous via Zoom (registered students will receive the link)</p>
+<p><strong>Class time:</strong> T/Th 1:00pm - 2:30pm (see exceptions in schedule below)</p>
+<p><strong>Code of Conduct</strong>; This course follows the <a href="https://thefaylab.github.io/lab-manual/code">Fay Lab code of conduct</a>, which applies to all
+class spaces, including classroom, myCourses, Zoom calls, class GoogleDocs, and student hours. You can also read my lab's <a href="https://thefaylab.github.io/lab-manual/culture.html">lab culture and philosophy</a>, which underpins my approach to teaching and collaboration. During our initial session we will co-create our community guidelines for the semester.</p>
+<p><strong>COVID-19:</strong> We are in the middle of a global pandemic and things are not normal. I want you to succeed in this course and will do what I can to help support your being able to meet our learning objectives. Please communicate with me if there are additional things I can do to help support you. I will not ask you to disclose information related to your reasons for such requests outside of what is needed to provide possible solutions.</p>
 <hr />
 <div id="agenda" class="section level2 unnumbered hasAnchor">
 <h2>Agenda<a href="index.html#agenda" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><em>(subject to change)</em></p>
 <table>
+<colgroup>
+<col width="15%" />
+<col width="13%" />
+<col width="13%" />
+<col width="58%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th>Date</th>
@@ -138,7 +152,7 @@
 <td>1-Sep</td>
 <td>1</td>
 <td>Th</td>
-<td>Introductory material, fisheries assessment methods review</td>
+<td><a href="#intro">Introductory material, fisheries assessment methods review</a></td>
 </tr>
 <tr class="odd">
 <td>6-Sep</td>
@@ -168,49 +182,53 @@
 <td>13-Sep</td>
 <td>3</td>
 <td>T</td>
-<td>Guest Lecure, Woods Hole Assessment Model (WHAM)</td>
+<td>Extended Stock assessment models</td>
 </tr>
 <tr class="even">
 <td>15-Sep</td>
 <td>3</td>
 <td>Th</td>
-<td>Extended Stock assessment models</td>
+<td>Guest Lecture, Woods Hole Assessment Model (WHAM)</td>
 </tr>
 <tr class="odd">
 <td>20-Sep</td>
 <td>4</td>
 <td>T</td>
-<td>Ecosystem Indicator Pressure-Response analyses</td>
+<td>Multispecies models - estimating species interactions<br />
+<em>Homework 1 due (extended stock assessment)</em></td>
 </tr>
 <tr class="even">
 <td>22-Sep</td>
 <td>4</td>
 <td>Th</td>
-<td>Guest Lecture, Joint Species Distribution Modeling</td>
+<td>Qualitative modeling I<br />
+<em>Project descriptions due</em></td>
 </tr>
 <tr class="odd">
 <td>27-Sep</td>
 <td>5</td>
 <td>T</td>
-<td>Qualitative modeling</td>
+<td>Qualitative modeling II</td>
 </tr>
 <tr class="even">
 <td>29-Sep</td>
 <td>5</td>
 <td>Th</td>
-<td>Multispecies models - estimating species interactions</td>
+<td>Guest Lecture, Joint Species Distribution Modeling<br />
+<em>Homework 2 due (multispecies modeling)</em></td>
 </tr>
 <tr class="odd">
 <td>4-Oct</td>
 <td>6</td>
 <td>T</td>
-<td>Models of Intermediate Complexity for Ecosystems (MICE)</td>
+<td>WGSAM MSKEYRUNS REVIEW</td>
 </tr>
 <tr class="even">
 <td>6-Oct</td>
 <td>6</td>
 <td>Th</td>
-<td>WGSAM MSKEYRUNS REVIEW</td>
+<td>WGSAM MSKEYRUNS REVIEW<br />
+<em>Homework 3 due (SES modeling)</em></td>
 </tr>
 <tr class="odd">
 <td>11-Oct</td>
@@ -228,55 +246,57 @@
 <td>18-Oct</td>
 <td>8</td>
 <td>T</td>
-<td>Fleet dynamics</td>
+<td>Ecosystem Indicator Analyses</td>
 </tr>
 <tr class="even">
 <td>20-Oct</td>
 <td>8</td>
 <td>Th</td>
-<td>Multispecies policy analysis - fishery ecosystem plans</td>
+<td>Food web models I (Rpath module)</td>
 </tr>
 <tr class="odd">
 <td>25-Oct</td>
 <td>9</td>
 <td>T</td>
-<td>Guest Lecture, Dynamic Ocean Management</td>
+<td>Food web models II (Rpath module)</td>
 </tr>
 <tr class="even">
 <td>27-Oct</td>
 <td>9</td>
 <td>Th</td>
-<td>Marine spatial planning</td>
+<td>Ecosystem MSEs (Rpath module)<br />
+<em>Project plans due</em></td>
 </tr>
 <tr class="odd">
 <td>1-Nov</td>
 <td>10</td>
 <td>T</td>
-<td>CAPAM stock assessment good practices</td>
+<td>Multispecies policy analysis - fishery ecosystem plans</td>
 </tr>
 <tr class="even">
 <td>3-Nov</td>
 <td>10</td>
 <td>Th</td>
-<td>CAPAM stock assessment good practices</td>
+<td>Models of Intermediate Complexity for Ecosystems (MICE)<br />
+<em>Homework 4 due (Rpath tradeoff analysis)</em></td>
 </tr>
 <tr class="odd">
 <td>8-Nov</td>
 <td>11</td>
 <td>T</td>
-<td>Food web models I (Rpath module)</td>
+<td>Fleet dynamics</td>
 </tr>
 <tr class="even">
 <td>10-Nov</td>
 <td>11</td>
 <td>Th</td>
-<td>Food web models II (Rpath module)</td>
+<td>Guest Lecture, Dynamic Ocean Management</td>
 </tr>
 <tr class="odd">
 <td>15-Nov</td>
 <td>12</td>
 <td>T</td>
-<td>Ecosystem MSEs (Rpath module)</td>
+<td>Marine spatial planning</td>
 </tr>
 <tr class="even">
 <td>17-Nov</td>
@@ -288,7 +308,8 @@
 <td>22-Nov</td>
 <td>13</td>
 <td>T</td>
-<td>Whole of system models I</td>
+<td>Whole of system models I<br />
+<em>Homework 5 due (spatial planning using Marxan)</em></td>
 </tr>
 <tr class="even">
 <td>24-Nov</td>
@@ -303,19 +324,20 @@
 <td>Whole of system models 2</td>
 </tr>
 <tr class="even">
-<td>1-Dec</td>
+<td>01-Dec</td>
 <td>14</td>
 <td>Th</td>
-<td>Participatory modeling</td>
+<td>Participatory modeling<br />
+<em>Project drafts accepted</em></td>
 </tr>
 <tr class="odd">
-<td>6-Dec</td>
+<td>06-Dec</td>
 <td>15</td>
 <td>T</td>
 <td>Multicriteria Decision Analysis</td>
 </tr>
 <tr class="even">
-<td>8-Dec</td>
+<td>08-Dec</td>
 <td>15</td>
 <td>Th</td>
 <td>NO CLASS</td>
@@ -323,15 +345,18 @@
 <tr class="odd">
 <td>13-Dec</td>
 <td>16</td>
-<td>T</td>
-<td>Project presentations</td>
+<td>T<br />
+</td>
+<td>Project presentations<br />
+<em>Project reports due</em></td>
 </tr>
 </tbody>
 </table>
 <hr />
-<p><strong>Class modality</strong>: Current plan is for the course to be offered in person at UMassD-SMAST in New Bedford, with all course sessions also available for remote attendance via Zoom. There are two sub-module ‘workshops’ during the course - a TMB training in September, and a sequence of class sessions on the R implementation of Ecopath with Ecosim (EwE) foodweb modeling software, <code>Rpath</code>. Students who are interested in attending just one or both of these sub-modules should email Dr. Fay ASAP.</p>
 <p><strong>Prerequisites</strong>: Students should have taken coursework in applied statistics (e.g. MAR 535, Biological Statistics), or equivalent. Experience with the programming language R at the advanced beginner level is required (contact Dr. Fay if you would like recommendations for brief training materials that cover the necessary background). Students should also be familiar with modeling and estimation approaches for fisheries assessment and conservation management (e.g. MAR544), or seek permission from the instructor. While MAR530 (ecosystem-based fisheries management) provides useful background material for this class, it is not required.</p>
-<p><strong>Homework assignments &amp; Course Project</strong>: 1. Five homework assignments (12% each). 2. Final project (40%). The aim of the project will be to apply some of the modeling methods covered during the course to a research-related task, and can be carried out individually or in small groups (2-3). For group projects, all group members must have readily-identifiable tasks and the same grade for the project will be assigned to all members of a group. Students are encouraged to select topics which are relevant to their thesis research and/or could form the basis for a short publication.</p>
+<p><strong>Evaluation procedures</strong>: 1. Five homework assignments (12% each). 2. Final project (40%). The aim of the project will be to apply some of the modeling methods covered during the course to a research-related task, and can be carried out individually or in small groups (2-3). For group projects, all group members must have readily-identifiable tasks and the same grade for the project will be assigned to all members of a group. Students are encouraged to select topics which are relevant to their thesis research and/or could form the basis for a short publication. Deliverables on project progression through the semester are a short (~1 paragraph) project description, a brief meeting with Dr. Fay to discuss the proposed project, a project plan (detailed outline including key literature, and clear description of methods/experimental design), a verbal presentation of the methods and results at the end of the semester, and a written description of the methods and results of the project in the form of a draft scientific manuscript (Introduction, Methods, Results, Discussion).</p>
+<p>Failure to complete any of these requirements for evaluation will result in a score of zero for missing components. A final grade of 'incomplete' may be recorded at the request of the student and the discretion of the professor.</p>
+<p>No academic dishonesty, including plagiarism, will be tolerated and the <a href="http://www.umassd.edu/studentaffairs/studenthandbook/academicregulationsandprocedures/">University Academic Integrity policy</a> applies.</p>
 <p><strong>Course materials</strong>: This website (built in R!) provides access to the workshop materials and will be updated during the course as we progress (and adapt).</p>
 <p><strong>This website</strong>: <a href="https://gavinfay.github.io/mebm-models/" class="uri">https://gavinfay.github.io/mebm-models/</a><br />
 <strong>GitHub repo</strong>: <a href="https://github.com/gavinfay/mebm-models" class="uri">https://github.com/gavinfay/mebm-models</a></p>
@@ -360,6 +385,13 @@
 <li>McLeod, K., &amp; Leslie, H. (Eds.). 2009. Ecosystem-based management for the oceans. Washington, DC, USA: Island Press.</li>
 <li>Walters, C. J., &amp; S.J. Martell. 2004. Fisheries ecology and management. Princeton University Press.</li>
 </ul>
+<div id="title-ix-statement" class="section level3 hasAnchor">
+<h3><span class="header-section-number">0.0.1</span> Title IX statement<a href="index.html#title-ix-statement" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The purpose of a university is to disseminate information, as well as to explore a universe of ideas, to encourage diverse perspectives and robust expression, and to foster the development of critical and analytical thinking skills. In many classes, including this one, students and faculty examine and analyze challenging and controversial topics.</p>
+<p>If a topic covered in this class triggers post-traumatic stress or other emotional distress, please discuss the matter with the professor or seek out confidential resources available from the Counseling Center, <a href="http://www.umassd.edu/counselling/," class="uri">http://www.umassd.edu/counselling/,</a> 508-999-8648 or -8650, or the Victim Advocate in the Center for Women, Gender and Sexuality, <a href="http://www.umassd.edu/sexualviolence/," class="uri">http://www.umassd.edu/sexualviolence/,</a> 508-910-4584. In an emergency contact the Department of Public Safety at 508-999-9191 24 hrs./day.</p>
+<p>UMass Dartmouth, following national guidance from the Office of Civil Rights, requires that faculty follow UMass Dartmouth policy as a "mandated reporter" of any disclosure of sexual harassment, abuse, and/or violence shared with the faculty member in person and/or via email. These disclosures include but are not limited to reports of sexual assault, relational abuse, relational/domestic violence, and stalking. While faculty are often able to help students locate appropriate channels of assistance on campus, disclosure by the student to the faculty member requires that the faculty member inform the University's Title IX Coordinator in the Office of Diversity, Equity and Inclusion at 508-999-8008 to help ensure that the student's safety and welfare is being addressed, even if the student requests that the disclosure not be shared.</p>
+<p>For confidential counseling support and assistance, please go to <a href="http://www.umassd.edu/sexualviolence/" class="uri">http://www.umassd.edu/sexualviolence/</a></p>
+</div>
 </div>
 <div id="licensing" class="section level2 unnumbered hasAnchor">
 <h2>Licensing<a href="index.html#licensing" class="anchor-section" aria-label="Anchor link to header"></a></h2>
