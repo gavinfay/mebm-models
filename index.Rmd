@@ -161,7 +161,7 @@ Necessary libraries, and other pieces of software used in the course will be det
 
 ## Reading {.unnumbered}
 
-A recommended reading list covering the individual topics will be posted on this website, as well as a Zotero database for the course. There is no required text for this class, though students will find sections of the following books useful.
+A recommended reading list covering the individual topics will be posted on this website, as well as a [Zotero database](#reading) for the course. There is no required text for this class, though students will find sections of the following books useful.
 
 -   Link, J. 2010. Ecosystem-based fisheries management: confronting tradeoffs. Cambridge Univ. Press, Cambridge.
 -   McLeod, K., & Leslie, H. (Eds.). 2009. Ecosystem-based management for the oceans. Washington, DC, USA: Island Press.

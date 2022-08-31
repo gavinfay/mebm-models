@@ -2,6 +2,26 @@
 
 Course materials not in the github repository can be found in the course Google Drive [course-materials folder](https://drive.google.com/drive/folders/1Wt4fhAgCP92aBu_XSCQq50Xrkc-UVHnx?usp=sharing). Everything will of course be linked to here on the website.  
 
+We'll make use of shared Google Docs during our class sessions, to provide a collaborative space for all students in the class, whether they are in the classroom or attending remotely. Links will be shared with course students.  
 
+## Day 1: Course Structure, Introduction to EBM, and overview of course topics
+
+[Lecture 1 slides](https://docs.google.com/presentation/d/1sYUB6rJQAw5Q_cjGQbxJD75AcLOI_gaL/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
+
+## Reading
+
+Reading for our first meeting:  
+
+1. [Dolan, T.E., Patrick, W.S. and Link, J.S., 2016. Delineating the continuum of marine ecosystem-based management: a US fisheries reference point perspective. ICES Journal of Marine Science, 73(4), pp.1042-1050.](https://doi.org/10.1093/icesjms/fsv242)
+2. [Tallis, H., Levin, P.S., Ruckelshaus, M., Lester, S.E., McLeod, K.L., Fluharty, D.L. and Halpern, B.S., 2010. The many faces of ecosystem-based management: making the process work today in real places. Marine Policy, 34(2), pp.340-348.](https://doi.org/10.1016/j.marpol.2009.08.003)  
+
+
+## Supplemental material
+
+Presentation including a review of fisheries models   
+[slides](https://docs.google.com/presentation/d/1uWs1wCwdihfbCoG7x8W-WyqSpX1brKUO/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
+
+Great review and history of fisheries modeling  
+[Quinn, T.J., 2003. Ruminations on the development and future of population dynamics models in fisheries. Natural Resource Modeling, 16(4), pp.341-392.](https://doi.org/10.1111/j.1939-7445.2003.tb00119.x)  
 
 

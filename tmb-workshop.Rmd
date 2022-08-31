@@ -21,3 +21,13 @@ The sequence for the TMB training will be:
 
 __Documentation__: The online [TMB book](https://kaskr.github.io/adcomp/_book/Introduction.html) is a great place to start.  
 
+
+## Installation
+
+[These installation instructions](https://github.com/nwfsc-assess/geostatistical_delta-GLMM/wiki/Steps-to-install-TMB) are a good path for getting TMB installed on your machine. 
+
+Note that for Windows users, you will need to install Rtools as part of the process.  
+
+If you want to build TMB from source, including the development version, then you can follow the instructions on the [TMB repo here](https://github.com/kaskr/adcomp).  
+
+__NOTE__ Our RStudio Cloud instance has TMB installed already, and so if you use this you do not have to worry about getting it working on your machine. (but you might want to for other uses)  

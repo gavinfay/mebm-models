@@ -4,7 +4,9 @@ language:
     chapter_name: "Chapter "
 rmd_files: [
   "index.Rmd",
-  "tmb-workshop.Rmd"
+  "tmb-workshop.Rmd",
+  "intro.Rmd",
+  "reading"
 #   "01-intro-mse.Rmd",
 #   "04-objectives.Rmd",
 #   "02-operating-models.Rmd",
