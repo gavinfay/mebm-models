@@ -18,7 +18,18 @@ description: "This is a CINAR-supported training course at UMass Dartmouth to be
 
 **Course Objectives**: 1. Familiarity with a range of models used for ecosystem-based management and experience using some of them. 2. Understanding of the benefits, challenges, and limitations of using these models to provide scientific advice for management.
 
-**Code of Conduct**; These workshops follow the [Fay Lab code of conduct:](https://thefaylab.github.io/lab-manual/code)
+**Credits:** 3
+
+**Class modality**: In person at UMassD-SMAST in New Bedford, with all course sessions also available for remote attendance via Zoom. Some guest lectures remote learning only. There are two sub-module 'workshops' during the course - a TMB training in September, and a sequence of class sessions on the R implementation of Ecopath with Ecosim (EwE) foodweb modeling software, `Rpath`. Students who are interested in attending just one or both of these sub-modules should email Dr. Fay ASAP.
+
+**Class location:** SMAST-E 247, synchronous via Zoom (registered students will receive the link)
+
+**Class time:** T/Th 1:00pm - 2:30pm (see exceptions in schedule below)
+
+**Code of Conduct**; This course follows the [Fay Lab code of conduct](https://thefaylab.github.io/lab-manual/code), which applies to all
+class spaces, including classroom, myCourses, Zoom calls, class GoogleDocs, and student hours. You can also read my lab\'s [lab culture and philosophy](https://thefaylab.github.io/lab-manual/culture.html), which underpins my approach to teaching and collaboration. During our initial session we will co-create our community guidelines for the semester.
+
+**COVID-19:** We are in the middle of a global pandemic and things are not normal. I want you to succeed in this course and will do what I can to help support your being able to meet our learning objectives. Please communicate with me if there are additional things I can do to help support you. I will not ask you to disclose information related to your reasons for such requests outside of what is needed to provide possible solutions.
 
 ------------------------------------------------------------------------
 
@@ -26,49 +37,94 @@ description: "This is a CINAR-supported training course at UMass Dartmouth to be
 
 *(subject to change)*
 
-| Date   | Week | Day | Topic                                                      |
-|---------------|---------------|---------------|---------------------------|
-| 1-Sep  | 1    | Th  | Software installation troubleshooting (9am)                |
-| 1-Sep  | 1    | Th  | Introductory material, fisheries assessment methods review |
-| 6-Sep  | 2    | T   | [TMB Workshop I](#tmb) (9am)                               |
-| 6-Sep  | 2    | T   | [TMB Workshop II](#tmb)                                    |
-| 8-Sep  | 2    | Th  | [TMB Workshop III](#tmb) (9am)                             |
-| 8-Sep  | 2    | Th  | [TMB Workshop IV](#tmb)                                    |
-| 13-Sep | 3    | T   | Guest Lecure, Woods Hole Assessment Model (WHAM)           |
-| 15-Sep | 3    | Th  | Extended Stock assessment models                           |
-| 20-Sep | 4    | T   | Ecosystem Indicator Pressure-Response analyses             |
-| 22-Sep | 4    | Th  | Guest Lecture, Joint Species Distribution Modeling         |
-| 27-Sep | 5    | T   | Qualitative modeling                                       |
-| 29-Sep | 5    | Th  | Multispecies models - estimating species interactions      |
-| 4-Oct  | 6    | T   | Models of Intermediate Complexity for Ecosystems (MICE)    |
-| 6-Oct  | 6    | Th  | WGSAM MSKEYRUNS REVIEW                                     |
-| 11-Oct | 7    | T   | NO CLASS - MONDAY SCHEDULE                                 |
-| 13-Oct | 7    | Th  | WGSAM                                                      |
-| 18-Oct | 8    | T   | Fleet dynamics                                             |
-| 20-Oct | 8    | Th  | Multispecies policy analysis - fishery ecosystem plans     |
-| 25-Oct | 9    | T   | Guest Lecture, Dynamic Ocean Management                    |
-| 27-Oct | 9    | Th  | Marine spatial planning                                    |
-| 1-Nov  | 10   | T   | CAPAM stock assessment good practices                      |
-| 3-Nov  | 10   | Th  | CAPAM stock assessment good practices                      |
-| 8-Nov  | 11   | T   | Food web models I (Rpath module)                           |
-| 10-Nov | 11   | Th  | Food web models II (Rpath module)                          |
-| 15-Nov | 12   | T   | Ecosystem MSEs (Rpath module)                              |
-| 17-Nov | 12   | Th  | Guest Lecture - Coupled ecosystem modeling                 |
-| 22-Nov | 13   | T   | Whole of system models I                                   |
-| 24-Nov | 13   | Th  | NO CLASS - THANKSGIVING                                    |
-| 29-Nov | 14   | T   | Whole of system models 2                                   |
-| 1-Dec  | 14   | Th  | Participatory modeling                                     |
-| 6-Dec  | 15   | T   | Multicriteria Decision Analysis                            |
-| 8-Dec  | 15   | Th  | NO CLASS                                                   |
-| 13-Dec | 16   | T   | Project presentations                                      |
++---------------+-------------+-------------+------------------------------------------------------------+
+| Date          | Week        | Day         | Topic                                                      |
++===============+=============+=============+============================================================+
+| 1-Sep         | 1           | Th          | Software installation troubleshooting (9am)                |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 1-Sep         | 1           | Th          | [Introductory material, fisheries assessment methods review](#intro) |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 6-Sep         | 2           | T           | [TMB Workshop I](#tmb) (9am)                               |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 6-Sep         | 2           | T           | [TMB Workshop II](#tmb)                                    |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 8-Sep         | 2           | Th          | [TMB Workshop III](#tmb) (9am)                             |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 8-Sep         | 2           | Th          | [TMB Workshop IV](#tmb)                                    |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 13-Sep        | 3           | T           | Extended Stock assessment models                           |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 15-Sep        | 3           | Th          | Guest Lecture, Woods Hole Assessment Model (WHAM)          |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 20-Sep        | 4           | T           | Multispecies models - estimating species interactions\        |
+|               |             |             | *Homework 1 due (extended stock assessment)*               |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 22-Sep        | 4           | Th          | Qualitative modeling I\     |
+|               |             |             | *Project descriptions due*                                 |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 27-Sep        | 5           | T           | Qualitative modeling II                                     |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 29-Sep        | 5           | Th          | Guest Lecture, Joint Species Distribution Modeling\                                   |
+|               |             |             | *Homework 2 due (multispecies modeling)*                   |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 4-Oct         | 6           | T           | WGSAM MSKEYRUNS REVIEW                                     |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 6-Oct         | 6           | Th          | WGSAM MSKEYRUNS REVIEW\                                    |
+|               |             |             | *Homework 3 due (SES modeling)*                            |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 11-Oct        | 7           | T           | NO CLASS - MONDAY SCHEDULE                                 |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 13-Oct        | 7           | Th          | WGSAM                                                      |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 18-Oct        | 8           | T           | Ecosystem Indicator Analyses                               |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 20-Oct        | 8           | Th          | Food web models I (Rpath module)                           |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 25-Oct        | 9           | T           | Food web models II (Rpath module)                          |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 27-Oct        | 9           | Th          | Ecosystem MSEs (Rpath module)\                             |
+|               |             |             | *Project plans due*                                        |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 1-Nov         | 10          | T           | Multispecies policy analysis - fishery ecosystem plans     |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 3-Nov         | 10          | Th          | Models of Intermediate Complexity for Ecosystems (MICE)\   |
+|               |             |             | *Homework 4 due (Rpath tradeoff analysis)*                 |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 8-Nov         | 11          | T           | Fleet dynamics                                             |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 10-Nov        | 11          | Th          | Guest Lecture, Dynamic Ocean Management                    |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 15-Nov        | 12          | T           | Marine spatial planning                                    |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 17-Nov        | 12          | Th          | Guest Lecture - Coupled ecosystem modeling                 |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 22-Nov        | 13          | T           | Whole of system models I\                                  |
+|               |             |             | *Homework 5 due (spatial planning using Marxan)*           |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 24-Nov        | 13          | Th          | NO CLASS - THANKSGIVING                                    |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 29-Nov        | 14          | T           | Whole of system models 2                                   |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 01-Dec        | 14          | Th          | Participatory modeling\                                    |
+|               |             |             | *Project drafts accepted*                                  |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 06-Dec        | 15          | T           | Multicriteria Decision Analysis                            |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 08-Dec        | 15          | Th          | NO CLASS                                                   |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 13-Dec        | 16          | T\          | Project presentations\                                     |
+|               |             |             | *Project reports due*                                      |
++---------------+-------------+-------------+------------------------------------------------------------+
 
 ------------------------------------------------------------------------
 
-**Class modality**: Current plan is for the course to be offered in person at UMassD-SMAST in New Bedford, with all course sessions also available for remote attendance via Zoom. There are two sub-module 'workshops' during the course - a TMB training in September, and a sequence of class sessions on the R implementation of Ecopath with Ecosim (EwE) foodweb modeling software, `Rpath`. Students who are interested in attending just one or both of these sub-modules should email Dr. Fay ASAP.
-
 **Prerequisites**: Students should have taken coursework in applied statistics (e.g. MAR 535, Biological Statistics), or equivalent. Experience with the programming language R at the advanced beginner level is required (contact Dr. Fay if you would like recommendations for brief training materials that cover the necessary background). Students should also be familiar with modeling and estimation approaches for fisheries assessment and conservation management (e.g. MAR544), or seek permission from the instructor. While MAR530 (ecosystem-based fisheries management) provides useful background material for this class, it is not required.
 
-**Homework assignments & Course Project**: 1. Five homework assignments (12% each). 2. Final project (40%). The aim of the project will be to apply some of the modeling methods covered during the course to a research-related task, and can be carried out individually or in small groups (2-3). For group projects, all group members must have readily-identifiable tasks and the same grade for the project will be assigned to all members of a group. Students are encouraged to select topics which are relevant to their thesis research and/or could form the basis for a short publication.
+**Evaluation procedures**: 1. Five homework assignments (12% each). 2. Final project (40%). The aim of the project will be to apply some of the modeling methods covered during the course to a research-related task, and can be carried out individually or in small groups (2-3). For group projects, all group members must have readily-identifiable tasks and the same grade for the project will be assigned to all members of a group. Students are encouraged to select topics which are relevant to their thesis research and/or could form the basis for a short publication. Deliverables on project progression through the semester are a short (\~1 paragraph) project description, a brief meeting with Dr. Fay to discuss the proposed project, a project plan (detailed outline including key literature, and clear description of methods/experimental design), a verbal presentation of the methods and results at the end of the semester, and a written description of the methods and results of the project in the form of a draft scientific manuscript (Introduction, Methods, Results, Discussion).
+
+Failure to complete any of these requirements for evaluation will result in a score of zero for missing components. A final grade of \'incomplete\' may be recorded at the request of the student and the discretion of the professor.
+
+No academic dishonesty, including plagiarism, will be tolerated and the [University Academic Integrity policy](http://www.umassd.edu/studentaffairs/studenthandbook/academicregulationsandprocedures/) applies.
 
 **Course materials**: This website (built in R!) provides access to the workshop materials and will be updated during the course as we progress (and adapt).
 
@@ -110,6 +166,16 @@ A recommended reading list covering the individual topics will be posted on this
 -   Link, J. 2010. Ecosystem-based fisheries management: confronting tradeoffs. Cambridge Univ. Press, Cambridge.
 -   McLeod, K., & Leslie, H. (Eds.). 2009. Ecosystem-based management for the oceans. Washington, DC, USA: Island Press.
 -   Walters, C. J., & S.J. Martell. 2004. Fisheries ecology and management. Princeton University Press.
+
+### Title IX statement
+
+The purpose of a university is to disseminate information, as well as to explore a universe of ideas, to encourage diverse perspectives and robust expression, and to foster the development of critical and analytical thinking skills. In many classes, including this one, students and faculty examine and analyze challenging and controversial topics.
+
+If a topic covered in this class triggers post-traumatic stress or other emotional distress, please discuss the matter with the professor or seek out confidential resources available from the Counseling Center, <http://www.umassd.edu/counselling/,> 508-999-8648 or -8650, or the Victim Advocate in the Center for Women, Gender and Sexuality, <http://www.umassd.edu/sexualviolence/,> 508-910-4584. In an emergency contact the Department of Public Safety at 508-999-9191 24 hrs./day.
+
+UMass Dartmouth, following national guidance from the Office of Civil Rights, requires that faculty follow UMass Dartmouth policy as a \"mandated reporter\" of any disclosure of sexual harassment, abuse, and/or violence shared with the faculty member in person and/or via email. These disclosures include but are not limited to reports of sexual assault, relational abuse, relational/domestic violence, and stalking. While faculty are often able to help students locate appropriate channels of assistance on campus, disclosure by the student to the faculty member requires that the faculty member inform the University\'s Title IX Coordinator in the Office of Diversity, Equity and Inclusion at 508-999-8008 to help ensure that the student\'s safety and welfare is being addressed, even if the student requests that the disclosure not be shared.
+
+For confidential counseling support and assistance, please go to <http://www.umassd.edu/sexualviolence/>
 
 ## Licensing {.unnumbered}
 
