@@ -6,7 +6,7 @@ rmd_files: [
   "index.Rmd",
   "tmb-workshop.Rmd",
   "intro.Rmd",
-  "reading"
+  "reading.Rmd"
 #   "01-intro-mse.Rmd",
 #   "04-objectives.Rmd",
 #   "02-operating-models.Rmd",
