@@ -1,5 +1,6 @@
 title-ix-statement
 tmb
+session-1
 installation
 intro
 day-1-course-structure-introduction-to-ebm-and-overview-of-course-topics
