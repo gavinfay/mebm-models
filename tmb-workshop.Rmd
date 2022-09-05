@@ -26,18 +26,29 @@ __RStudio Cloud__
 A RStudio Cloud virtual machine has been set up for you to use in this workshop (though many may choose to run things locally on their own machines). Participants should see their emails for the logon link.  
 
 
-## Session 1
-
-__Introduction to TMB__
+## Materials 
 
 A convenient way to access the code and materials is through the github repository for the TMB workshop, `mebm-tmb`, can be found at [https://github.com/gavinfay/mebm-tmb](https://github.com/gavinfay/mebm-tmb).  
 You can download the repository from here using the green `Code` button.  
 (ask Gavin how to clone the repo so you can pull in his changes later in the week!)  
 
-There is also a Google Drive folder with all the [Session 1 materials](https://drive.google.com/drive/folders/1pEBz8RZBzev8iMI_ijGvBACRXjaCL6UJ?usp=sharing).  
+## Session 1
 
-[Intro lecture slide deck](https://docs.google.com/presentation/d/1CLnKkVfi39tr77JkAhslrFW5U0ebFsNY/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
-[More TMB slide deck](https://docs.google.com/presentation/d/1fpxDSQ6ILM1r-vuYqphGT51z0sIJbGA3/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
+__Introduction to TMB__
+
+There is a Google Drive folder with all the [Session 1 materials](https://drive.google.com/drive/folders/1pEBz8RZBzev8iMI_ijGvBACRXjaCL6UJ?usp=sharing).  
+
+[Intro lecture slide deck](https://docs.google.com/presentation/d/1qPjTXeEYLJuU4cAebFZveMKL_Z94PeG9/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
+[More TMB slide deck](https://docs.google.com/presentation/d/1SiRY6L-9jpAEKtGATnnEPlGNfL5VI3yQ/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
+
+
+## Session 2
+
+__Mixed effects modeling in TMB__
+
+Google Drive folder with all the [Session 2 materials](https://drive.google.com/drive/folders/1oQz5e-KHFiJZ16bHcABDDzJ1igN0zA9n?usp=sharing).  
+
+[Mixed effects models lecture slide deck](https://docs.google.com/presentation/d/1a4q3weJTyZvrDZc0OMm5TRDXyA6M9emV/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
 
 
 
