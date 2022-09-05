@@ -50,7 +50,10 @@ Google Drive folder with all the [Session 2 materials](https://drive.google.com/
 
 [Mixed effects models lecture slide deck](https://docs.google.com/presentation/d/1a4q3weJTyZvrDZc0OMm5TRDXyA6M9emV/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
 
+## Additional resources
 
+[lecture on probability](https://github.com/gavinfay/mebm-models/blob/main/course-materials/resources/lecture1B-probability.pdf)
+[lecture on MLE](https://github.com/gavinfay/mebm-models/blob/main/course-materials/resources/lecture1C-likelihood.pdf)
 
 
 ## Installation
