@@ -50,10 +50,23 @@ Google Drive folder with all the [Session 2 materials](https://drive.google.com/
 
 [Mixed effects models lecture slide deck](https://docs.google.com/presentation/d/1a4q3weJTyZvrDZc0OMm5TRDXyA6M9emV/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
 
-## Additional resources
+## Session 3
 
-[lecture on probability](https://github.com/gavinfay/mebm-models/blob/main/course-materials/resources/lecture1B-probability.pdf)
-[lecture on MLE](https://github.com/gavinfay/mebm-models/blob/main/course-materials/resources/lecture1C-likelihood.pdf)
+__State-space modeling__
+
+Google drive folder with [Session 3 materials](https://drive.google.com/drive/folders/1wgMkjTrhqRwqecwg4ujWKMOGHFg5OFZP?usp=sharing)
+
+[slide deck](https://docs.google.com/presentation/d/1C3lRcbagWF8OlXsuxNvZmjI8pv18DOXD/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
+
+
+## Session 4
+
+__spatial example and growth__
+
+Google drive folder with [Session 4 materials](https://drive.google.com/drive/folders/1DCY7ZmewYbm1crumav_SzvpgeR1MQMHB?usp=sharing)
+
+[slide deck](https://docs.google.com/presentation/d/1yAScOLKKXWUGlxg-c_eqqHljNyzMYPT8/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
+
 
 
 ## Installation
@@ -65,3 +78,10 @@ Note that for Windows users, you will need to install Rtools as part of the proc
 If you want to build TMB from source, including the development version, then you can follow the instructions on the [TMB repo here](https://github.com/kaskr/adcomp).  
 
 __NOTE__ Our RStudio Cloud instance has TMB installed already, and so if you use this you do not have to worry about getting it working on your machine. (but you might want to for other uses)  
+
+
+## Additional resources
+
+[lecture on probability](https://github.com/gavinfay/mebm-models/blob/main/course-materials/resources/lecture1B-probability.pdf)
+[lecture on MLE](https://github.com/gavinfay/mebm-models/blob/main/course-materials/resources/lecture1C-likelihood.pdf)
+
