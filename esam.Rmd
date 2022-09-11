@@ -1,0 +1,48 @@
+# Extended Stock Assessment Models {#esam}
+
+As usual, course materials not in the github repository can be found in the course Google Drive [course-materials folder](https://drive.google.com/drive/folders/1Wt4fhAgCP92aBu_XSCQq50Xrkc-UVHnx?usp=sharing). Everything will of course be linked to here on the website.  
+
+## 09/13, contined overview of course topics & projects discussion
+
+[Lecture 1 slides](https://docs.google.com/presentation/d/1sYUB6rJQAw5Q_cjGQbxJD75AcLOI_gaL/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
+
+
+## 09/15, the "extended stock assessment" approach
+
+slide deck to come  
+
+
+## Reading
+
+Reading for our 09/15 meeting:  
+
+[Skern‐Mauritzen, M., Ottersen, G., Handegard, N.O., Huse, G., Dingsør, G.E., Stenseth, N.C. and Kjesbu, O.S., 2016. Ecosystem processes are rarely included in tactical fisheries management. Fish and Fisheries, 17(1), pp.165-175.](https://doi.org/10.1111/faf.12111)
+
+[Hollowed, A.B., Bond, N.A., Wilderbuer, T.K., Stockhausen, W.T., A'mar, Z.T., Beamish, R.J., Overland, J.E. and Schirripa, M.J., 2009. A framework for modelling fish and shellfish responses to future climate change. ICES Journal of Marine Science, 66(7), pp.1584-1594.](https://doi.org/10.1093/icesjms/fsp057)
+
+## Relevant Assignment 1 reading
+
+
+
+
+## Supplemental material
+
+### Additional readings on these topics
+
+[Bell et al 2014 Bell, R.J., Hare, J.A., Manderson, J.P. and Richardson, D.E., 2014. Externally driven changes in the abundance of summer and winter flounder. ICES Journal of Marine Science, 71(9), pp.2416-2428.](https://doi.org/10.1093/icesjms/fsu069)
+
+[Essington, T.E., Moriarty, P.E., Froehlich, H.E., Hodgson, E.E., Koehn, L.E., Oken, K.L., Siple, M.C. and Stawitz, C.C., 2015. Fishing amplifies forage fish population collapses. Proceedings of the National Academy of Sciences, 112(21), pp.6648-6652.](https://doi.org/10.1073/pnas.1422020112)
+
+[Klaer, N.L., O’Boyle, R.N., Deroba, J.J., Wayte, S.E., Little, L.R., Alade, L.A. and Rago, P.J., 2015. How much evidence is required for acceptance of productivity regime shifts in fish stock assessments: are we letting managers off the hook?. Fisheries Research, 168, pp.49-55.](https://doi.org/10.1016/j.fishres.2015.03.021)
+
+[Vert-Pre, K.A., Amoroso, R.O., Jensen, O.P. and Hilborn, R., 2013. Frequency and intensity of productivity regime shifts in marine fish stocks. Proceedings of the National Academy of Sciences, 110(5), pp.1779-1784.](https://doi.org/10.1073/pnas.1214879110)
+
+### supplementaty intro material
+
+Presentation including a review of fisheries models   
+[slides](https://docs.google.com/presentation/d/1uWs1wCwdihfbCoG7x8W-WyqSpX1brKUO/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
+
+Great review and history of fisheries modeling  
+[Quinn, T.J., 2003. Ruminations on the development and future of population dynamics models in fisheries. Natural Resource Modeling, 16(4), pp.341-392.](https://doi.org/10.1111/j.1939-7445.2003.tb00119.x)  
+
+
