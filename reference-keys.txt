@@ -11,6 +11,14 @@ intro
 day-1-course-structure-introduction-to-ebm-and-overview-of-course-topics
 reading-1
 supplemental-material
+esam
+contined-overview-of-course-topics-projects-discussion
+the-extended-stock-assessment-approach
+reading-2
+relevant-assignment-1-reading
+supplemental-material-1
+additional-readings-on-these-topics
+supplementaty-intro-material
 reading
 zotero-library
 useful-books
