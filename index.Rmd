@@ -42,7 +42,7 @@ class spaces, including classroom, myCourses, Zoom calls, class GoogleDocs, and 
 +===============+=============+=============+============================================================+
 | 1-Sep         | 1           | Th          | Software installation troubleshooting (9am)                |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 1-Sep         | 1           | Th          | [Introductory material, fisheries assessment methods review](#intro) |
+| 1-Sep         | 1           | Th          | [Introduction to EBM](#intro) |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 6-Sep         | 2           | T           | [TMB Workshop I](#tmb) (9am)                               |
 +---------------+-------------+-------------+------------------------------------------------------------+
@@ -52,31 +52,31 @@ class spaces, including classroom, myCourses, Zoom calls, class GoogleDocs, and 
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 8-Sep         | 2           | Th          | [TMB Workshop IV](#tmb)                                    |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 13-Sep        | 3           | T           | Extended Stock assessment models                           |
+| 13-Sep        | 3           | T           | [Course topics & fisheries assessment methods review](#esam)                            |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 15-Sep        | 3           | Th          | Guest Lecture, Woods Hole Assessment Model (WHAM)          |
+| 15-Sep        | 3           | Th          | [Extended Stock assessment models](#esam)          |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 20-Sep        | 4           | T           | Multispecies models - estimating species interactions\        |
-|               |             |             | *Homework 1 due (extended stock assessment)*               |
-+---------------+-------------+-------------+------------------------------------------------------------+
-| 22-Sep        | 4           | Th          | Qualitative modeling I\     |
+| 20-Sep        | 4           | T           | Qualitative modeling I\         |
 |               |             |             | *Project descriptions due*                                 |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 27-Sep        | 5           | T           | Qualitative modeling II                                     |
+| 22-Sep        | 4           | Th          | Qualitative modeling II\     |
+|               |             |             | *Homework 1 due (dynamic reference points)*               |
++---------------+-------------+-------------+------------------------------------------------------------+
+| 27-Sep        | 5           | T           | Multispecies models - estimating species interactions                                     |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 29-Sep        | 5           | Th          | Guest Lecture, Joint Species Distribution Modeling\                                   |
-|               |             |             | *Homework 2 due (multispecies modeling)*                   |
+|               |             |             | *Homework 2 due (SES modeling)*                   |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 4-Oct         | 6           | T           | WGSAM MSKEYRUNS REVIEW                                     |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 6-Oct         | 6           | Th          | WGSAM MSKEYRUNS REVIEW\                                    |
-|               |             |             | *Homework 3 due (SES modeling)*                            |
+|               |             |             | *Homework 3 due (multispecies modeling)*                            |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 11-Oct        | 7           | T           | NO CLASS - MONDAY SCHEDULE                                 |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 13-Oct        | 7           | Th          | WGSAM                                                      |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 18-Oct        | 8           | T           | Ecosystem Indicator Analyses                               |
+| 18-Oct        | 8           | T           | Guest lecture, Ecosystem Indicator Analyses                               |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 20-Oct        | 8           | Th          | Food web models I (Rpath module)                           |
 +---------------+-------------+-------------+------------------------------------------------------------+
@@ -85,18 +85,18 @@ class spaces, including classroom, myCourses, Zoom calls, class GoogleDocs, and 
 | 27-Oct        | 9           | Th          | Ecosystem MSEs (Rpath module)\                             |
 |               |             |             | *Project plans due*                                        |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 1-Nov         | 10          | T           | Multispecies policy analysis - fishery ecosystem plans     |
+| 1-Nov         | 10          | T           | Guest Lecture, State-space modeling for EBFM     |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 3-Nov         | 10          | Th          | Models of Intermediate Complexity for Ecosystems (MICE)\   |
+| 3-Nov         | 10          | Th          | Guest Lecture, Woods Hole Assessment Model (WHAM) Models of Intermediate Complexity for Ecosystems (MICE)\   |
 |               |             |             | *Homework 4 due (Rpath tradeoff analysis)*                 |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 8-Nov         | 11          | T           | Fleet dynamics                                             |
+| 8-Nov         | 11          | T           | Guest Lecture, Climate-linked fisheries stock assessment Fleet dynamics                                             |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 10-Nov        | 11          | Th          | Guest Lecture, Dynamic Ocean Management                    |
+| 10-Nov        | 11          | Th          | Multispecies policy analysis - fishery ecosystem plans               |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 15-Nov        | 12          | T           | Marine spatial planning                                    |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 17-Nov        | 12          | Th          | Guest Lecture - Coupled ecosystem modeling                 |
+| 17-Nov        | 12          | Th          | Dynamic Ocean Management                 |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 22-Nov        | 13          | T           | Whole of system models I\                                  |
 |               |             |             | *Homework 5 due (spatial planning using Marxan)*           |
