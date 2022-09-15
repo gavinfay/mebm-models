@@ -15,6 +15,7 @@ esam
 contined-overview-of-course-topics-projects-discussion
 the-extended-stock-assessment-approach
 reading-2
+homework-assignment-1
 relevant-assignment-1-reading
 supplemental-material-1
 additional-readings-on-these-topics
