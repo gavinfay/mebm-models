@@ -9,7 +9,7 @@ As usual, course materials not in the github repository can be found in the cour
 
 ## 09/15, the "extended stock assessment" approach
 
-slide deck to come  
+[Lecture 3 slides](https://docs.google.com/presentation/d/1aCOGyWBylqGoHQ87M9kO62-he_nbxdYi/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
 
 
 ## Reading
@@ -20,9 +20,18 @@ Reading for our 09/15 meeting:
 
 [Hollowed, A.B., Bond, N.A., Wilderbuer, T.K., Stockhausen, W.T., A'mar, Z.T., Beamish, R.J., Overland, J.E. and Schirripa, M.J., 2009. A framework for modelling fish and shellfish responses to future climate change. ICES Journal of Marine Science, 66(7), pp.1584-1594.](https://doi.org/10.1093/icesjms/fsp057)
 
+## Homework Assignment 1
+
+Dynamic reference points in stock-recruitment models for Northeast US Atlantic herring
+
+[Link to materials]
+
+
 ## Relevant Assignment 1 reading
 
+[Bell et al 2014 Bell, R.J., Hare, J.A., Manderson, J.P. and Richardson, D.E., 2014. Externally driven changes in the abundance of summer and winter flounder. ICES Journal of Marine Science, 71(9), pp.2416-2428.](https://doi.org/10.1093/icesjms/fsu069)
 
+[2022 Atlantic herring stock assessment report](https://apps-nefsc.fisheries.noaa.gov/saw/sasi/uploads/Atlantic_Herring_Unit_Report_23May2022.pdf)
 
 
 ## Supplemental material
