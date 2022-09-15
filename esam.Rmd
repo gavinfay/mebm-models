@@ -22,9 +22,9 @@ Reading for our 09/15 meeting:
 
 ## Homework Assignment 1
 
-Dynamic reference points in stock-recruitment models for Northeast US Atlantic herring
+[Dynamic reference points in stock-recruitment models for Northeast US Atlantic herring](https://github.com/gavinfay/mebm-models/blob/main/course-materials/assignments/hw-01/hw-01.pdf)
 
-[Link to materials]
+[Link to materials](https://github.com/gavinfay/mebm-models/blob/main/course-materials/assignments/hw-01)
 
 
 ## Relevant Assignment 1 reading
