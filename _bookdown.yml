@@ -2,6 +2,7 @@ book_filename: "Models for Marine Ecosystem-Based Management"
 language:
   ui:
     chapter_name: "Chapter "
+    number_sections: false
 rmd_files: [
   "index.Rmd",
   "tmb-workshop.Rmd",
@@ -21,5 +22,4 @@ rmd_files: [
  ]
 delete_merged_file: true
 output_dir: "docs"
-number_sections: false
 # always_allow_html: true # added after build error suggested this for kable() ---but unsuccessful
