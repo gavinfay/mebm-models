@@ -56,7 +56,7 @@ class spaces, including classroom, myCourses, Zoom calls, class GoogleDocs, and 
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 15-Sep        | 3           | Th          | [Extended Stock assessment models](#esam)          |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 20-Sep        | 4           | T           | Qualitative modeling I\         |
+| 20-Sep        | 4           | T           | [Qualitative modeling I](#qualmod)\         |
 |               |             |             | *Project descriptions due*                                 |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 22-Sep        | 4           | Th          | Qualitative modeling II\     |

@@ -13,7 +13,7 @@ weight <- c(0.0103,	0.0466,	0.0825,	0.1101,	0.1407,	0.1616,	0.1663,	0.1948)
 M <- 0.35
 
 # Equilibirum per-recruit analyses
-source("spr_functions.R")
+source("course-materials/assignments/hw-01/spr_functions.R")
 #example function calls
 #SBPR(0,M,weight,selex,maturity)
 #SBPR(0.4,M,weight,selex,maturity)

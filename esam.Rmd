@@ -2,17 +2,17 @@
 
 As usual, course materials not in the github repository can be found in the course Google Drive [course-materials folder](https://drive.google.com/drive/folders/1Wt4fhAgCP92aBu_XSCQq50Xrkc-UVHnx?usp=sharing). Everything will of course be linked to here on the website.  
 
-## 09/13, contined overview of course topics & projects discussion
+## 09/13, contined overview of course topics & projects discussion {.unlisted .unnumbered}
 
 [Lecture 1 slides](https://docs.google.com/presentation/d/1sYUB6rJQAw5Q_cjGQbxJD75AcLOI_gaL/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
 
 
-## 09/15, the "extended stock assessment" approach
+## 09/15, the "extended stock assessment" approach {.unlisted .unnumbered}
 
 [Lecture 3 slides](https://docs.google.com/presentation/d/1aCOGyWBylqGoHQ87M9kO62-he_nbxdYi/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
 
 
-## Reading
+## Reading {.unlisted .unnumbered}
 
 Reading for our 09/15 meeting:  
 
@@ -20,23 +20,23 @@ Reading for our 09/15 meeting:
 
 [Hollowed, A.B., Bond, N.A., Wilderbuer, T.K., Stockhausen, W.T., A'mar, Z.T., Beamish, R.J., Overland, J.E. and Schirripa, M.J., 2009. A framework for modelling fish and shellfish responses to future climate change. ICES Journal of Marine Science, 66(7), pp.1584-1594.](https://doi.org/10.1093/icesjms/fsp057)
 
-## Homework Assignment 1
+## Homework Assignment 1 {.unlisted .unnumbered}
 
 [Dynamic reference points in stock-recruitment models for Northeast US Atlantic herring](https://github.com/gavinfay/mebm-models/blob/main/course-materials/assignments/hw-01/hw-01.pdf)
 
 [Link to materials](https://github.com/gavinfay/mebm-models/blob/main/course-materials/assignments/hw-01)
 
 
-## Relevant Assignment 1 reading
+## Relevant Assignment 1 reading {.unlisted .unnumbered}
 
 [Bell et al 2014 Bell, R.J., Hare, J.A., Manderson, J.P. and Richardson, D.E., 2014. Externally driven changes in the abundance of summer and winter flounder. ICES Journal of Marine Science, 71(9), pp.2416-2428.](https://doi.org/10.1093/icesjms/fsu069)
 
 [2022 Atlantic herring stock assessment report](https://apps-nefsc.fisheries.noaa.gov/saw/sasi/uploads/Atlantic_Herring_Unit_Report_23May2022.pdf)
 
 
-## Supplemental material
+## Supplemental material {.unlisted .unnumbered}
 
-### Additional readings on these topics
+### Additional readings on these topics {.unlisted .unnumbered}
 
 [Bell et al 2014 Bell, R.J., Hare, J.A., Manderson, J.P. and Richardson, D.E., 2014. Externally driven changes in the abundance of summer and winter flounder. ICES Journal of Marine Science, 71(9), pp.2416-2428.](https://doi.org/10.1093/icesjms/fsu069)
 
@@ -46,7 +46,7 @@ Reading for our 09/15 meeting:
 
 [Vert-Pre, K.A., Amoroso, R.O., Jensen, O.P. and Hilborn, R., 2013. Frequency and intensity of productivity regime shifts in marine fish stocks. Proceedings of the National Academy of Sciences, 110(5), pp.1779-1784.](https://doi.org/10.1073/pnas.1214879110)
 
-### supplementaty intro material
+### supplementaty intro material {.unlisted .unnumbered}
 
 Presentation including a review of fisheries models   
 [slides](https://docs.google.com/presentation/d/1uWs1wCwdihfbCoG7x8W-WyqSpX1brKUO/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)

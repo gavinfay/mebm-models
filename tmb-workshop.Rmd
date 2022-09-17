@@ -26,13 +26,13 @@ __RStudio Cloud__
 A RStudio Cloud virtual machine has been set up for you to use in this workshop (though many may choose to run things locally on their own machines). Participants should see their emails for the logon link.  
 
 
-## Materials 
+## Materials {.unlisted .unnumbered}
 
 A convenient way to access the code and materials is through the github repository for the TMB workshop, `mebm-tmb`, can be found at [https://github.com/gavinfay/mebm-tmb](https://github.com/gavinfay/mebm-tmb).  
 You can download the repository from here using the green `Code` button.  
 (ask Gavin how to clone the repo so you can pull in his changes later in the week!)  
 
-## Session 1
+## Session 1 {.unlisted .unnumbered}
 
 __Introduction to TMB__
 
@@ -42,7 +42,7 @@ There is a Google Drive folder with all the [Session 1 materials](https://drive.
 [More TMB slide deck](https://docs.google.com/presentation/d/1SiRY6L-9jpAEKtGATnnEPlGNfL5VI3yQ/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
 
 
-## Session 2
+## Session 2 {.unlisted .unnumbered}
 
 __Mixed effects modeling in TMB__
 
@@ -50,7 +50,7 @@ Google Drive folder with all the [Session 2 materials](https://drive.google.com/
 
 [Mixed effects models lecture slide deck](https://docs.google.com/presentation/d/1a4q3weJTyZvrDZc0OMm5TRDXyA6M9emV/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
 
-## Session 3
+## Session 3 {.unlisted .unnumbered}
 
 __State-space modeling__
 
@@ -59,7 +59,7 @@ Google drive folder with [Session 3 materials](https://drive.google.com/drive/fo
 [slide deck](https://docs.google.com/presentation/d/1C3lRcbagWF8OlXsuxNvZmjI8pv18DOXD/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
 
 
-## Session 4
+## Session 4 {.unlisted .unnumbered}
 
 __spatial example and growth__
 
@@ -69,7 +69,7 @@ Google drive folder with [Session 4 materials](https://drive.google.com/drive/fo
 
 
 
-## Installation
+## Installation {.unlisted .unnumbered}
 
 [These installation instructions](https://github.com/nwfsc-assess/geostatistical_delta-GLMM/wiki/Steps-to-install-TMB) are a good path for getting TMB installed on your machine. 
 
@@ -80,7 +80,7 @@ If you want to build TMB from source, including the development version, then yo
 __NOTE__ Our RStudio Cloud instance has TMB installed already, and so if you use this you do not have to worry about getting it working on your machine. (but you might want to for other uses)  
 
 
-## Additional resources
+## Additional resources {.unlisted .unnumbered}
 
 [lecture on probability](https://github.com/gavinfay/mebm-models/blob/main/course-materials/resources/lecture1B-probability.pdf)
 [lecture on MLE](https://github.com/gavinfay/mebm-models/blob/main/course-materials/resources/lecture1C-likelihood.pdf)

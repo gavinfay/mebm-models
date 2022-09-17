@@ -1,0 +1,24 @@
+# Qualitative Ecosystem Modeling {#qualmod}
+
+As usual, course materials not in the github repository can be found in the course Google Drive [course-materials folder](https://drive.google.com/drive/folders/1Wt4fhAgCP92aBu_XSCQq50Xrkc-UVHnx?usp=sharing). Everything will of course be linked to here on the website.  
+
+## 09/20 Introduction to Qualitative Socio-Ecological Systems Modeling {.unlisted .unnumbered}
+
+## 09/22 Applying loop analysis for EBM {.unlisted .unnumbered}
+
+## Reading {.unlisted .unnumbered}
+
+The below 2 papers (suggest reading the Dambacher one first) give an introduction to qualitative ecosystem modeling.  
+
+[Dambacher, J.M., Li, H.W. and Rossignol, P.A., 2003. Qualitative predictions in model ecosystems. Ecological Modelling, 161(1-2), pp.79-93. https://doi.org/10.1016/S0304-3800(02)00295-8](https://doi.org/10.1016/S0304-3800(02)00295-8)  
+
+[Melbourne-Thomas, J., Wotherspoon, S., Raymond, B. and Constable, A., 2012. Comprehensive evaluation of model uncertainty in qualitative network analyses. Ecological Monographs, 82(4), pp.505-519. https://doi.org/10.1890/12-0207.1](https://doi.org/10.1890/12-0207.1)  
+
+Here is an [excellent short presentation by SMAST PhD Dr. Robert Wildermuth](https://www.dropbox.com/s/7zmf4x45euofhhb/Video_Wildermuth_WCMAC_20210317.mp4?dl=0) on development and application of these models to marine spatial planning in Washington State.  
+
+The following 2 papers provide good applications of the methods.
+
+[Reum, J.C., McDonald, P.S., Ferriss, B.E., Farrell, D.M., Harvey, C.J. and Levin, P.S., 2015. Qualitative network models in support of ecosystem approaches to bivalve aquaculture. ICES Journal of Marine Science, 72(8), pp.2278-2288. https://doi.org/10.1093/icesjms/fsv119](https://doi.org/10.1093/icesjms/fsv119)  
+
+[Haraldsson, M., Raoux, A., Riera, F., Hay, J., Dambacher, J.M. and Niquil, N., 2020. How to model social-ecological systems?–A case study on the effects of a future offshore wind farm on the local society and ecosystem, and whether social compensation matters. Marine Policy, 119, p.104031. https://doi.org/10.1016/j.marpol.2020.104031](https://doi.org/10.1016/j.marpol.2020.104031)  
+
