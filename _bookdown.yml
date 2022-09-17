@@ -2,7 +2,6 @@ book_filename: "Models for Marine Ecosystem-Based Management"
 language:
   ui:
     chapter_name: "Chapter "
-    number_sections: false
 rmd_files: [
   "index.Rmd",
   "tmb-workshop.Rmd",
