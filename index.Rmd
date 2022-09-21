@@ -64,46 +64,46 @@ class spaces, including classroom, myCourses, Zoom calls, class GoogleDocs, and 
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 27-Sep        | 5           | T           | Multispecies models - estimating species interactions                                     |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 29-Sep        | 5           | Th          | Guest Lecture, Joint Species Distribution Modeling\                                   |
+| 29-Sep        | 5           | Th          | Species Distribution Modeling with `sdmTMB` (Dr. Eric Ward, NOAA NWFSC)\                                   |
 |               |             |             | *Homework 2 due (SES modeling)*                   |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 4-Oct         | 6           | T           | WGSAM MSKEYRUNS REVIEW                                     |
+| 4-Oct         | 6           | T           | Multispecies models II                     |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 6-Oct         | 6           | Th          | WGSAM MSKEYRUNS REVIEW\                                    |
+| 6-Oct         | 6           | Th          | Models of Intermediate Complexity for Ecosystems (MICE)\                                    |
 |               |             |             | *Homework 3 due (multispecies modeling)*                            |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 11-Oct        | 7           | T           | NO CLASS - MONDAY SCHEDULE                                 |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 13-Oct        | 7           | Th          | WGSAM                                                      |
+| 13-Oct        | 7           | Th          | ICES WGSAM (Working Group for Multispecies Stock Assessment Methods) 10/10-10/14 in Woods Hole, MA and online                                                      |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 18-Oct        | 8           | T           | Guest lecture, Ecosystem Indicator Analyses                               |
+| 18-Oct        | 8           | T           | Ecosystem Indicator Analyses (Dr. Scott Large, NOAA NEFSC)                               |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 20-Oct        | 8           | Th          | Food web models I (Rpath module)                           |
+| 20-Oct        | 8           | Th          | Food web models I (Rpath module, Dr. Sean Lucey, NOAA NEFSC)                           |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 25-Oct        | 9           | T           | Food web models II (Rpath module)                          |
+| 25-Oct        | 9           | T           | Food web models II (Rpath module, Dr. Sean Lucey, NOAA NEFSC)                          |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 27-Oct        | 9           | Th          | Ecosystem MSEs (Rpath module)\                             |
+| 27-Oct        | 9           | Th          | Ecosystem MSEs (Rpath module, Dr. Sean Lucey, NOAA NEFSC)\                             |
 |               |             |             | *Project plans due*                                        |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 1-Nov         | 10          | T           | Guest Lecture, State-space modeling for EBFM     |
+| 1-Nov         | 10          | T           | State-space modeling for EBFM (Dr. Greg Britten, MIT)    |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 3-Nov         | 10          | Th          | Guest Lecture, Woods Hole Assessment Model (WHAM) Models of Intermediate Complexity for Ecosystems (MICE)\   |
+| 3-Nov         | 10          | Th          | Woods Hole Assessment Model (WHAM) (Dr. Tim Miller, NOAA NEFSC)\   |
 |               |             |             | *Homework 4 due (Rpath tradeoff analysis)*                 |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 8-Nov         | 11          | T           | Guest Lecture, Climate-linked fisheries stock assessment Fleet dynamics                                             |
+| 8-Nov         | 11          | T           | Climate-linked fisheries stock assessment (Amanda Hart, GMRI)          |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 10-Nov        | 11          | Th          | Multispecies policy analysis - fishery ecosystem plans               |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 15-Nov        | 12          | T           | Marine spatial planning                                    |
+| 15-Nov        | 12          | T           | Marine spatial planning & Dynamic Ocean Management                                    |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 17-Nov        | 12          | Th          | Dynamic Ocean Management                 |
+| 17-Nov        | 12          | Th          | Fleet dynamics modeling                 |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 22-Nov        | 13          | T           | Whole of system models I\                                  |
 |               |             |             | *Homework 5 due (spatial planning using Marxan)*           |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 24-Nov        | 13          | Th          | NO CLASS - THANKSGIVING                                    |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 29-Nov        | 14          | T           | Whole of system models 2                                   |
+| 29-Nov        | 14          | T           | Whole of system models II                                   |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 01-Dec        | 14          | Th          | Participatory modeling\                                    |
 |               |             |             | *Project drafts accepted*                                  |
