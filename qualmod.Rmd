@@ -6,7 +6,16 @@ As usual, course materials not in the github repository can be found in the cour
 
 [slide deck](https://docs.google.com/presentation/d/19gDMK1whYIWIf-LA2H0THVoUWIvGLGXj/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
 
+[shiny app for viewing results of lass-created model structure uncertainty exercise](https://gavinfay.shinyapps.io/qual-mod/)
+
 ## 09/22 Applying loop analysis for EBM {.unlisted .unnumbered}
+
+[Qualitative modeling in R](https://github.com/gavinfay/mebm-models/blob/main/course-materials/qual-mod/qual-mod.R)
+
+## Homework Assignment 2
+
+[Simulating qualitative press perturbation scenarios for network socio-ecological systems models](https://github.com/gavinfay/mebm-models/blob/main/course-materials/assignments/hw-02/hw-02.pdf)
+
 
 ## Reading {.unlisted .unnumbered}
 
