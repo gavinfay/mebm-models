@@ -3,6 +3,7 @@ tmb
 intro
 esam
 qualmod
+homework-assignment-2
 reading
 zotero-library
 useful-books
