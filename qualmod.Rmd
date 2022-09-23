@@ -10,11 +10,14 @@ As usual, course materials not in the github repository can be found in the cour
 
 ## 09/22 Applying loop analysis for EBM {.unlisted .unnumbered}
 
-[Qualitative modeling in R](https://github.com/gavinfay/mebm-models/blob/main/course-materials/qual-mod/qual-mod.R)
+[Qualitative modeling in R](https://github.com/gavinfay/mebm-models/blob/main/course-materials/qual-mod)
 
 ## Homework Assignment 2
 
 [Simulating qualitative press perturbation scenarios for network socio-ecological systems models](https://github.com/gavinfay/mebm-models/blob/main/course-materials/assignments/hw-02/hw-02.pdf)
+
+The R package `QPress` can be installed from github at [https://github.com/SWotherspoon/QPress](https://github.com/SWotherspoon/QPress).  
+GF found it was easier to install directly from github via the `remotes::install_github()`instructions on the repository landing paged.  
 
 
 ## Reading {.unlisted .unnumbered}
