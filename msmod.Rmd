@@ -1,0 +1,34 @@
+# Multispecies Models {#msmod}
+
+As usual, course materials not in the github repository can be found in the course Google Drive [course-materials folder](https://drive.google.com/drive/folders/1Wt4fhAgCP92aBu_XSCQq50Xrkc-UVHnx?usp=sharing). Everything will of course be linked to here on the website.  
+
+## 09/27 {.unlisted .unnumbered}
+
+Lecture slides 
+
+
+## 10/04 {.unlisted .unnumbered}
+
+## 10/11 {.unlisted .unnumbered}
+
+
+## Reading {.unlisted .unnumbered}
+
+Primary readings for 9/27, 10/4, 10/6
+
+[Hall, S.J., Collie, J.S., Duplisea, D.E., Jennings, S., Bravington, M. and Link, J., 2006. A length-based multispecies model for evaluating community responses to fishing. Canadian Journal of Fisheries and Aquatic Sciences, 63(6), pp.1344-1359.](https://cdnsciencepub.com/doi/pdf/10.1139/f06-039)
+
+[Ives, A.R., Dennis, B., Cottingham, K.L. and Carpenter, S.R., 2003. Estimating community stability and ecological interactions from time‐series data. Ecological monographs, 73(2), pp.301-330.](https://doi.org/10.1890/0012-9615(2003)073[0301:ECSAEI]2.0.CO;2)
+
+[Plagányi, É.E., Punt, A.E., Hillary, R., Morello, E.B., Thébaud, O., Hutton, T., Pillans, R.D., Thorson, J.T., Fulton, E.A., Smith, A.D. and Smith, F., 2014. Multispecies fisheries management and conservation: tactical applications using models of intermediate complexity. Fish and Fisheries, 15(1), pp.1-22.]()
+
+
+### Additional readings on these topics {.unlisted .unnumbered}
+
+[Holsman, K.K., Ianelli, J., Aydin, K., Punt, A.E. and Moffitt, E.A., 2016. A comparison of fisheries biological reference points estimated from temperature-specific multi-species and single-species climate-enhanced stock assessment models. Deep Sea Research Part II: Topical Studies in Oceanography, 134, pp.360-378.](https://doi.org/10.1016/j.dsr2.2015.08.001)
+
+[Thorpe, R.B., Le Quesne, W.J., Luxford, F., Collie, J.S. and Jennings, S., 2015. Evaluation and management implications of uncertainty in a multispecies size‐structured model of population and community responses to fishing. Methods in Ecology and Evolution, 6(1), pp.49-58.](https://doi.org/10.1111/2041-210X.12292)
+
+[Trijoulet, V., Fay, G. and Miller, T.J., 2020. Performance of a state‐space multispecies model: What are the consequences of ignoring predation and process errors in stock assessments?. Journal of Applied Ecology, 57(1), pp.121-135.](https://doi.org/10.1111/1365-2664.13515)
+
+

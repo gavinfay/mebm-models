@@ -59,22 +59,23 @@ class spaces, including classroom, myCourses, Zoom calls, class GoogleDocs, and 
 | 20-Sep        | 4           | T           | [Qualitative modeling I](#qualmod)\         |
 |               |             |             | *Project descriptions due*                                 |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 22-Sep        | 4           | Th          | Qualitative modeling II\     |
+| 22-Sep        | 4           | Th          | [Qualitative modeling II](#qualmod)\     |
 |               |             |             | *Homework 1 due (dynamic reference points)*               |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 27-Sep        | 5           | T           | Multispecies models - estimating species interactions                                     |
+| 27-Sep        | 5           | T           | [Multispecies models - estimating species interactions](#msmod)                                     |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 29-Sep        | 5           | Th          | Species Distribution Modeling with `sdmTMB` (Dr. Eric Ward, NOAA NWFSC)\                                   |
+| 29-Sep        | 5           | Th          |[Species Distribution Modeling with `sdmTMB` (Dr. Eric Ward, NOAA NWFSC)](#sdm)\                                   |
 |               |             |             | *Homework 2 due (SES modeling)*                   |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 4-Oct         | 6           | T           | More species distribution modeling                    |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 6-Oct         | 6           | Th          | Models of Intermediate Complexity for Ecosystems (MICE)\                                    |
-|               |             |             | *Homework 3 due (multispecies modeling)*                            |
+
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 11-Oct        | 7           | T           | NO CLASS - MONDAY SCHEDULE                                 |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 13-Oct        | 7           | Th          | ICES WGSAM (Working Group for Multispecies Stock Assessment Methods) 10/10-10/14 in Woods Hole, MA and online                                                      |
+| 13-Oct        | 7           | Th          | ICES WGSAM (Working Group for Multispecies Stock Assessment Methods) 10/10-10/14 in Woods Hole, MA and online\                                                      |
+|               |             |             | *Homework 3 due (multispecies modeling)*                            |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 18-Oct        | 8           | T           | Ecosystem Indicator Analyses (Dr. Scott Large, NOAA NEFSC)                               |
 +---------------+-------------+-------------+------------------------------------------------------------+

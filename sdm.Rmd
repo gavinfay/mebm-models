@@ -1,0 +1,27 @@
+# Species Distribution Modeling {#sdm}
+
+As usual, course materials not in the github repository can be found in the course Google Drive [course-materials folder](https://drive.google.com/drive/folders/1Wt4fhAgCP92aBu_XSCQq50Xrkc-UVHnx?usp=sharing). Everything will of course be linked to here on the website.  
+
+## 09/29 {.unlisted .unnumbered}
+
+Guest Lecture on TMB by Dr. Eric Ward, NOAA Northwest Fisheries Science Center.  
+(Class fully remote via Zoom)
+
+
+## Reading {.unlisted .unnumbered}
+
+[Anderson, S.C., Ward, E.J., English, P.A. and Barnett, L.A., 2022. sdmTMB: an R package for fast, flexible, and user-friendly generalized linear mixed effects models with spatial and spatiotemporal random fields. bioRxiv. https://doi.org/10.1101/2022.03.24.485545](https://doi.org/10.1101/2022.03.24.485545)
+
+
+### Additional readings on these topics {.unlisted .unnumbered}
+
+[Kleisner, K.M., Fogarty, M.J., McGee, S., Hare, J.A., Moret, S., Perretti, C.T. and Saba, V.S., 2017. Marine species distribution shifts on the US Northeast Continental Shelf under continued ocean warming. Progress in Oceanography, 153, pp.24-36.](https://doi.org/10.1016/j.pocean.2017.04.001)
+
+[Nye, J.A., Link, J.S., Hare, J.A. and Overholtz, W.J., 2009. Changing spatial distribution of fish stocks in relation to climate and population size on the Northeast United States continental shelf. Marine Ecology Progress Series, 393, pp.111-129.](https://doi.org/10.3354/meps08220)
+
+[Carroll, G., Holsman, K.K., Brodie, S., Thorson, J.T., Hazen, E.L., Bograd, S.J., Haltuch, M.A., Kotwicki, S., Samhouri, J., Spencer, P. and Willis‐Norton, E., 2019. A review of methods for quantifying spatial predator–prey overlap. Global Ecology and Biogeography, 28(11), pp.1561-1577.](https://people.ucsc.edu/~elhazen/hazen/Publications_files/Carroll%20et%20al.%202019%20-%20GEB.pdf)
+
+[Thorson, J.T., Barnett, L.A.K., 2017. Comparing estimates of abundance trends and distribution shifts using single- and multispecies models of fishes and biogenic habitat. ICES J. Mar. Sci. 74, 1311–1321.](https://doi.org/10.1093/icesjms/fsw193)
+
+[Thorson, J.T., Ianelli, J.N., Larsen, E., Ries, L., Scheuerell, M.D., Szuwalski, C., and Zipkin, E. 2016. Joint dynamic species distribution models: a tool for community ordination and spatiotemporal monitoring. Glob. Ecol. Biogeogr. 25(9): 1144–1158. doi:10.1111/geb.12464. ](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12464)
+
