@@ -8,6 +8,7 @@ rmd_files: [
   "intro.Rmd",
   "esam.Rmd",
   "qualmod.Rmd",
+  "msmod.Rmd",
   "sdm.Rmd",
   "reading.Rmd"
 #   "01-intro-mse.Rmd",
