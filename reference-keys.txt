@@ -4,6 +4,7 @@ intro
 esam
 qualmod
 homework-assignment-2
+sdm
 reading
 zotero-library
 useful-books
