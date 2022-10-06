@@ -16,8 +16,13 @@ As usual, course materials not in the github repository can be found in the cour
 
 [HW3 materials](https://github.com/gavinfay/mebm-models/blob/main/course-materials/assignments/hw-03)
 
+[MARSS user guide](https://cran.r-project.org/web/packages/MARSS/vignettes/UserGuide.pdf)
 
 ## 10/10-10/14 ICES WGSAM meeting
+
+Parking is at the Northeast Fisheries Science Center in Woods Hole (166 Water Street). The meeting is at MBL, see Gavin's email with the agenda / room information.  
+
+Accommodation is at the Inn on the Square in Falmouth, MA.  
 
 
 ## Reading {.unlisted .unnumbered}
