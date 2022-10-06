@@ -67,9 +67,9 @@ class spaces, including classroom, myCourses, Zoom calls, class GoogleDocs, and 
 | 29-Sep        | 5           | Th          |[Species Distribution Modeling with `sdmTMB` (Dr. Eric Ward, NOAA NWFSC)](#sdm)\                                   |
 |               |             |             | *Homework 2 due (SES modeling)*                   |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 4-Oct         | 6           | T           | More species distribution modeling                    |
+| 4-Oct         | 6           | T           | [More species distribution modeling](#sdm)                    |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 6-Oct         | 6           | Th          | Models of Intermediate Complexity for Ecosystems (MICE)                                    |
+| 6-Oct         | 6           | Th          | [More Models of Intermediate Complexity for Ecosystems (MICE)](#msmod)                                    |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 11-Oct        | 7           | T           | NO CLASS - MONDAY SCHEDULE                                 |
 +---------------+-------------+-------------+------------------------------------------------------------+

@@ -1,0 +1,11 @@
+﻿Name,Genus,Species,a,b,k,Linf,LM50,kappa,Smax,tau,Biomass,Catch,Atlantic herring,Winter flounder,Atlantic mackerel,Yellowtail flounder,Silver hake,Haddock,Spiny dogfish,Winter skate,Goosefish,Atlantic cod
+Atlantic_herring,Clupea,harengus,0.01,2.99,0.28,35,25,0.587,165,1,62597.18555,4812.369025,0,0,0,0,1,1,1,1,1,1
+Winter_flounder,Pseudopleurinectes,americanus,0.011,3.138,0.283,45.5,25,0.587,21,1,4733.666667,1255.254467,0,0,0,0,0,0,1,0,1,0
+Atlantic_mackerel,Scomber,scombrus,0.007,3.319,0.243,46.1,30,0.641,183,1,47121.36767,355.398639,0,0,0,0,1,0,1,1,1,1
+Yellowtail_flounder,Limanda,ferruginae,0.008,3.129,0.335,50,23,0.487,52,1,6036.666667,1782.252756,0,0,0,0,0,0,1,0,1,0
+Silver_hake,Merlucius,bilinearis,0.007,3.05,0.18,65.4,23,0.587,465,1,10296.72227,2860.379215,0,0,0,0,1,1,1,1,1,1
+Haddock,Melanogrammus,aeglefinus,0.01,3.068,0.376,73.8,28,0.375,421,1,241641,4971.592016,0,0,0,0,0,1,1,1,1,0
+Spiny_dogfish,Squalus,acanthias,0.003,3.122,0.1,100,80,0.587,136,1,122233.7586,10.10265071,0,0,0,0,0,0,1,0,1,0
+Winter_skate,Raja,ocellata,0.004,3.317,0.144,114.1,85,0.587,30,1,81430.14297,1664.986418,0,0,0,0,0,0,1,0,0,0
+Goosefish,Lophius,americanus,0.02,2.897,0.108,126,49,0.587,10,1,4777.273232,2848.082833,0,0,0,0,0,0,0,0,1,0
+Atlantic_cod,Gadus,morhua,0.009,3.052,0.12,148,40,0.149,72.1,1,13436.76815,1969.165769,0,0,0,0,0,1,1,1,1,1
