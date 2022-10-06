@@ -4,6 +4,8 @@ intro
 esam
 qualmod
 homework-assignment-2
+msmod
+ices-wgsam-meeting
 sdm
 reading
 zotero-library
