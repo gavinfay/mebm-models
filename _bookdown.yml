@@ -10,6 +10,8 @@ rmd_files: [
   "qualmod.Rmd",
   "msmod.Rmd",
   "sdm.Rmd",
+  "ecolind.Rmd",
+  "rpath.Rmd",
   "reading.Rmd"
 #   "01-intro-mse.Rmd",
 #   "04-objectives.Rmd",

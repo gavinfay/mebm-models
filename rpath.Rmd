@@ -1,0 +1,31 @@
+# Food Web models (Rpath module) {#rpath}
+
+As usual, course materials not in the github repository can be found in the course Google Drive [course-materials folder](https://drive.google.com/drive/folders/1Wt4fhAgCP92aBu_XSCQq50Xrkc-UVHnx?usp=sharing). Everything will of course be linked to here on the website.  
+
+A three-class sequence of class sessions on mass balance foodweb modeling using the `R` implementation of the Ecopath with Ecosim (EwE) framework, known as `Rpath`, given by guest lecturer Dr. Sean Lucey of NOAA Fisheries Northeast Fisheries Science Center.  
+
+## 10/20 {.unlisted .unnumbered}
+
+slide deck and R code will be posted here. See readings below.  
+
+## 10/25 {.unlisted .unnumbered}
+
+## 10/27 {.unlisted .unnumbered}
+
+## Homework Assignment 4 {.unlisted .unnumbered}
+
+
+## Reading {.unlisted .unnumbered}
+
+### Primary readings {.unlisted .unnumbered}
+
+[Lucey, S.M., Gaichas, S.K. and Aydin, K.Y., 2020. Conducting reproducible ecosystem modeling using the open source mass balance model Rpath. Ecological Modelling, 427, p.109057.](https://doi.org/10.1016/j.ecolmodel.2020.109057)
+
+[Heymans, J.J., Coll, M., Link, J.S., Mackinson, S., Steenbeek, J., Walters, C. and Christensen, V., 2016. Best practice in Ecopath with Ecosim food-web models for ecosystem-based management. Ecological Modelling, 331, pp.173-184.](https://doi.org/10.1016/j.ecolmodel.2015.12.007)  
+
+
+### Additional readings {.unlisted .unnumbered}
+
+[Christensen, V. and Walters, C.J., 2004. Ecopath with Ecosim: methods, capabilities and limitations. Ecological modelling, 172(2-4), pp.109-139.](https://doi.org/10.1016/j.ecolmodel.2003.09.003)
+
+[Link, J.S., 2010. Adding rigor to ecological network models by evaluating a set of pre-balance diagnostics: a plea for PREBAL. Ecological Modelling, 221(12), pp.1580-1591.](https://doi.org/10.1016/j.ecolmodel.2010.03.012)  

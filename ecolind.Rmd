@@ -1,0 +1,21 @@
+# Multivariate analysis of Ecosystem Indicators {#ecolind}
+
+As usual, course materials not in the github repository can be found in the course Google Drive [course-materials folder](https://drive.google.com/drive/folders/1Wt4fhAgCP92aBu_XSCQq50Xrkc-UVHnx?usp=sharing). Everything will of course be linked to here on the website.  
+
+## 10/18 {.unlisted .unnumbered}
+
+Guest lecture by Dr. Scott Large, Ecosystem Dynamics & Assessment Branch, NOAA Fisheries Northeast Fisheries Science Center.     
+
+## Reading {.unlisted .unnumbered}
+
+### Primary reading for 10/18
+
+[Planque, B. and Arneberg, P., 2018. Principal component analyses for integrated ecosystem assessments may primarily reflect methodological artefacts. ICES Journal of Marine Science, 75(3), pp.1021-1028.](https://doi.org/10.1093/icesjms/fsx223)  
+
+### Additional reading {.unlisted .unnumbered}
+
+[Zuur, A.F., Tuck, I.D. and Bailey, N., 2003. Dynamic factor analysis to estimate common trends in fisheries time series. Canadian journal of fisheries and aquatic sciences, 60(5), pp.542-552.](https://doi.org/10.1139/f03-030)  
+
+[Hunsicker, M.E., Ward, E.J., Litzow, M.A., Anderson, S.C., Harvey, C.J., Field, J.C., Gao, J., Jacox, M.G., Melin, S., Thompson, A.R. and Warzybok, P., 2022. Tracking and forecasting community responses to climate perturbations in the California Current Ecosystem. PLOS Climate, 1(3), p.e0000014.](https://doi.org/10.1371/journal.pclm.0000014)  
+
+[Ohlberger, J., Ward, E.J., Schindler, D.E. and Lewis, B., 2018. Demographic changes in Chinook salmon across the Northeast Pacific Ocean. Fish and Fisheries, 19(3), pp.533-546.](https://doi.org/10.1111/faf.12272)  

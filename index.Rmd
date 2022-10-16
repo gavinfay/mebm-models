@@ -76,13 +76,13 @@ class spaces, including classroom, myCourses, Zoom calls, class GoogleDocs, and 
 | 13-Oct        | 7           | Th          | ICES WGSAM (Working Group for Multispecies Stock Assessment Methods) 10/10-10/14 in Woods Hole, MA and online\                                                      |
 |               |             |             | *Homework 3 due (multispecies modeling)*                            |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 18-Oct        | 8           | T           | Ecosystem Indicator Analyses (Dr. Scott Large, NOAA NEFSC)                               |
+| 18-Oct        | 8           | T           | [Ecosystem Indicator Analyses (Dr. Scott Large, NOAA NEFSC)](#ecolind)                              |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 20-Oct        | 8           | Th          | Food web models I (Rpath module, Dr. Sean Lucey, NOAA NEFSC)                           |
+| 20-Oct        | 8           | Th          | [Food web models I (Rpath module, Dr. Sean Lucey, NOAA NEFSC)](#rpath)                           |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 25-Oct        | 9           | T           | Food web models II (Rpath module, Dr. Sean Lucey, NOAA NEFSC)                          |
+| 25-Oct        | 9           | T           | [Food web models II (Rpath module, Dr. Sean Lucey, NOAA NEFSC)](#rpath)                          |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 27-Oct        | 9           | Th          | Ecosystem MSEs (Rpath module, Dr. Sean Lucey, NOAA NEFSC)\                             |
+| 27-Oct        | 9           | Th          | [Ecosystem MSEs (Rpath module, Dr. Sean Lucey, NOAA NEFSC)](#rpath)\                             |
 |               |             |             | *Project plans due*                                        |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 1-Nov         | 10          | T           | State-space modeling for EBFM (Dr. Greg Britten, MIT)    |

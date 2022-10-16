@@ -6,7 +6,9 @@ As usual, course materials not in the github repository can be found in the cour
 
 [Lecture slides](https://docs.google.com/presentation/d/1tDBnmVm4c0LZ9dH0goIi5yYA4L6yuP5Z/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)   
 
-## 10/06 {.unlisted .unnumbered}l model?"](https://www.dropbox.com/s/sx1kgsxr9l5ovc4/Day2_S2_Sarah_Gaichas.mov?dl=0)  
+## 10/06 {.unlisted .unnumbered}
+
+[recorded lecture by Dr. Sarah Gaichas, NOAA NEFSC, "what makes a good multispecies model?"](https://www.dropbox.com/s/sx1kgsxr9l5ovc4/Day2_S2_Sarah_Gaichas.mov?dl=0)  
 
 [slide deck](https://www.dropbox.com/s/ua9ru1mt6n9kh1i/Gaichas_MMAW_Keynote.pdf?dl=0)
 
