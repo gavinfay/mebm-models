@@ -6,13 +6,19 @@ A three-class sequence of class sessions on mass balance foodweb modeling using 
 
 ## 10/20 {.unlisted .unnumbered}
 
-slide deck and R code will be posted here. See readings below.  
+Mass balance foodweb modeling with Rpath  
+[slide deck](https://docs.google.com/presentation/d/1DKJDBsaqGIYVdNzC1P_hccDc7F071ZAi/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)  
 
 ## 10/25 {.unlisted .unnumbered}
 
+
 ## 10/27 {.unlisted .unnumbered}
 
+
 ## Homework Assignment 4 {.unlisted .unnumbered}
+
+Small-group assignment. Students are expected to work within their groups to complete the goals. 
+GF to create working groups in the GoogleDoc.  
 
 
 ## Reading {.unlisted .unnumbered}
