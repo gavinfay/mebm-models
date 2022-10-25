@@ -11,6 +11,8 @@ Mass balance foodweb modeling with Rpath
 
 ## 10/25 {.unlisted .unnumbered}
 
+Dynamic simulations of foodweb models with Rsim  
+[slide deck](https://docs.google.com/presentation/d/1TTLDOe8FdRha6MLbLHRRV2Mf6qjuDr30/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)  
 
 ## 10/27 {.unlisted .unnumbered}
 
