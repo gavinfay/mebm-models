@@ -16,11 +16,17 @@ Dynamic simulations of foodweb models with Rsim
 
 ## 10/27 {.unlisted .unnumbered}
 
+Extending Rpath to be used in Management Strategy Evaluations
+[slide deck](https://docs.google.com/presentation/d/1IlhIc7101-DY4X-Y_JJn7danOaEOJwPX/edit?usp=sharing&ouid=100082783551785338508&rtpof=true&sd=true)
+
+[Lucey, S.M., Aydin, K.Y., Gaichas, S.K., Cadrin, S.X., Fay, G., Fogarty, M.J. and Punt, A., 2021. Evaluating fishery management strategies using an ecosystem model as an operating model. Fisheries Research, 234, p.105780.](https://doi.org/10.1016/j.fishres.2020.105780)
 
 ## Homework Assignment 4 {.unlisted .unnumbered}
 
-Small-group assignment. Students are expected to work within their groups to complete the goals. 
-GF to create working groups in the GoogleDoc.  
+(__due November 3rd__)
+Small-group assignment to complete the [Anchovy Bay exercise](https://slucey.github.io/AnchovyBay/articles/Anchovy_Bay.html).  
+Students are expected to work within their groups to complete the goals.  
+Working group assignment in the GoogleDoc.  
 
 
 ## Reading {.unlisted .unnumbered}
