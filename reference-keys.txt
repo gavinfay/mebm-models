@@ -10,6 +10,7 @@ sdm
 ecolind
 primary-reading-for-1018
 rpath
+wham
 reading
 zotero-library
 useful-books
