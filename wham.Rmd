@@ -5,7 +5,14 @@ As usual, course materials not in the github repository can be found in the cour
 ## 11/01, state-space population dynamics models {.unlisted .unnumbered}
 
 Guest lecture from __Dr. Gregory Britten, MIT__  
-(fully remote)
+(fully remote)  
+
+[slide deck](https://docs.google.com/presentation/d/1U2I1NAjqBGxqqO0baNlmrikYvaAHbSF9wydiF-lHZrQ/edit?usp=share_link)  
+[Materials](https://drive.google.com/drive/folders/1c1Yy5jD2-DMUu2H2qk4nIyoVbBNUMhIO)  
+
+*Software:*  
+The materials require {rstan} be installed. The course RStudio Cloud machine already has this installed. For those using wanting to run things locally, please install {rstan} ahead of time. e.g.  
+```install.packages('rstan')```
 
 
 ## 11/03, Woods Hole Assessment Model {.unlisted .unnumbered}
