@@ -12,8 +12,15 @@ Guest lecture from __Dr. Gregory Britten, MIT__
 
 Guest lecture from __Dr. Tim Miller, NOAA NEFSC__  
 
-Reading:  
+*Reading:*  
 [Stock, B.C. and Miller, T.J., 2021. The Woods Hole Assessment Model (WHAM): a general state-space assessment framework that incorporates time-and age-varying processes via random effects and links to environmental covariates. Fisheries Research, 240, p.105967.](https://doi.org/10.1016/j.fishres.2021.105967)  
+
+*Software:*  
+The course RStudio Cloud machine has WHAM installed. For those using wanting to run things locally, please ensure you have the 'devel' branch of WHAN installed. e.g.    
+```devtools::install_github("timjmiller/wham", dependencies=TRUE, ref="devel")```
+
+More installation istructions and information about wham, see the github repository:  
+[https://github.com/timjmiller/wham](https://github.com/timjmiller/wham)  
 
 
 ## 11/08, Climate-linked stock assessment models {.unlisted .unnumbered}
