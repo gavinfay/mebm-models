@@ -1,0 +1,27 @@
+# State-space models revisited: Woods Hole Assessment Model (WHAM) {#wham}
+
+As usual, course materials not in the github repository can be found in the course Google Drive [course-materials folder](https://drive.google.com/drive/folders/1Wt4fhAgCP92aBu_XSCQq50Xrkc-UVHnx?usp=sharing). Everything will of course be linked to here on the website.  
+
+## 11/01, state-space population dynamics models {.unlisted .unnumbered}
+
+Guest lecture from __Dr. Gregory Britten, MIT__  
+(fully remote)
+
+
+## 11/03, Woods Hole Assessment Model {.unlisted .unnumbered}
+
+Guest lecture from __Dr. Tim Miller, NOAA NEFSC__  
+
+Reading:  
+[Stock, B.C. and Miller, T.J., 2021. The Woods Hole Assessment Model (WHAM): a general state-space assessment framework that incorporates time-and age-varying processes via random effects and links to environmental covariates. Fisheries Research, 240, p.105967.](https://doi.org/10.1016/j.fishres.2021.105967)  
+
+
+## 11/08, Climate-linked stock assessment models {.unlisted .unnumbered}
+
+Guest lecture from __Amanda Hart, UMassD-SMAST & GMRI__  
+
+
+## Primary Reading {.unlisted .unnumbered}
+
+[Stock, B.C. and Miller, T.J., 2021. The Woods Hole Assessment Model (WHAM): a general state-space assessment framework that incorporates time-and age-varying processes via random effects and links to environmental covariates. Fisheries Research, 240, p.105967.](https://doi.org/10.1016/j.fishres.2021.105967)
+
