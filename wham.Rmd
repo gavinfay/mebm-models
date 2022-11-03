@@ -19,6 +19,10 @@ The materials require {rstan} be installed. The course RStudio Cloud machine alr
 
 Guest lecture from __Dr. Tim Miller, NOAA NEFSC__  
 
+[slide deck](https://drive.google.com/file/d/1uvTm4guuzPEgYERWAzUxKmJwAwVVyUGI/view?usp=share_link)  
+
+[R Markdown tutorial](https://drive.google.com/file/d/1HLeJQ3SGxcHVqTJwqqEQugesP1xN4Wdv/view?usp=share_link)  
+
 *Reading:*  
 [Stock, B.C. and Miller, T.J., 2021. The Woods Hole Assessment Model (WHAM): a general state-space assessment framework that incorporates time-and age-varying processes via random effects and links to environmental covariates. Fisheries Research, 240, p.105967.](https://doi.org/10.1016/j.fishres.2021.105967)  
 

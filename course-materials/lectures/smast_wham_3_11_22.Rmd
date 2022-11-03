@@ -1,0 +1,480 @@
+---
+title: "Ex 10: Simulation Studies"
+output: 
+  rmarkdown::html_vignette:
+   fig_width: 7
+   fig_height: 6
+vignette: >
+  %\VignetteIndexEntry{Ex 10: Simulation Studies}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+library(knitr)
+library(kableExtra)
+library(here)
+library(wham)
+```
+
+## 1. What is in this vignette
+
+This vignette will cover the following: 
+
+
+- Starting Simple:
+  - run basic wham fits to SNEYT yellowtail data 
+  - using WHAM without an asap3 dat file
+- Random effects on other parts of the assessment model
+  - selectivity
+  - catchability
+  - M
+- Environmental effects
+  - including data and configuring models for latent process
+  - effects on recruitment
+  - effects on M
+
+## 2. Setup and read in model input
+
+
+If you have not already installed `wham` and its dependencies, run
+
+ `devtools::install_github("timjmiller/wham", ref="devel", dependencies=TRUE, INSTALL_opts=c("--no-multiarch"))`.
+
+Open R and load the `wham` package:
+
+Open R and load the `wham` package and create a directory for this analysis:
+```{r, eval=FALSE}
+
+# choose a location to save output, otherwise will be saved in working directory
+write.dir <- file.path(here(), "results")
+dir.create(write.dir)
+```
+
+Then load the asap3 dat file into R:
+
+```{r, eval=TRUE}
+wham.dir <- find.package("wham")
+asap.file.path = file.path(wham.dir,"extdata","ex1_SNEMAYT.dat")
+asap3 <- read_asap3_dat(asap.file.path)
+
+```
+
+We use the `prepare_wham_input()` function to specify the model name and any settings that differ from the ASAP3 file. Our first model will use:
+
+- recruitment model: random about mean, no S-R function (`recruit_model = 2`)
+- recruitment deviations: independent random effects (`NAA_re = list(sigma="rec", cor="iid")`)
+- selectivity: age-specific (fix sel=1 for ages 4-5 in fishery, age 4 in index1, and ages 2-4 in index2)
+
+
+```{r, eval=TRUE}
+NAA_re = list(
+  #random effects for recruitment only
+  sigma="rec", 
+
+  #random effects are independent
+  cor="iid", 
+
+  #mean recruitment is the only fixed effect parameter
+  recruit_model = 2) 
+
+#define selectivity model
+selectivity=list(
+    #define selectivity model for all three selectivity blocks
+    model=rep("age-specific",3), 
+    
+    #define initial/fixed values for age-specific selectivity for all three selectivity blocks
+    initial_pars=list(c(0.5,0.5,0.5,1,1,0.5),c(0.5,0.5,0.5,1,0.5,0.5),c(0.5,1,1,1,0.5,0.5)),
+    
+    #which ages to not estimate age-specfic selectivity parameters for all three selectivity blocks
+    fix_pars=list(4:5,4,2:4)) 
+
+
+input <- prepare_wham_input(
+    asap3, 
+    selectivity = selectivity,
+    NAA_re = NAA_re,
+    model_name="Ex 1: SNEMA Yellowtail Flounder") 
+
+# don't do retrospective peels or One-step-ahead residuals, don't show output during optimization, do calculate hessian-based standard errors for parameters
+mod <- fit_wham(input, do.osa = F, do.retro=F, MakeADFun.silent = T, do.sdrep = T) 
+
+```
+
+```{r eval=FALSE}
+check_convergence(mod)
+```
+
+```{r, eval=TRUE}
+mod$sdrep #the standard errors of the fixed effects
+
+```
+
+To generate plots of inputs, diagnostics, results, etc., run `plot_wham_output`.  There are different options for format of output, but using "html" will create an easy interface that can be opened in your browser. Chrome seems to work best.
+
+```{r eval=FALSE}
+plot_wham_output(mod=mod, out.type = "html") # default is png, 
+```
+
+
+## 3. Using WHAM without an asap3 dat file
+
+Here we will use the functionality of the `basic_info` argument of `prepare_wham_input` to create an input without an asap3 dat file. The `basic_info` argument takes a list of various inputs needed for a wham model. The elements of the list are defined in the help file for `prepare_wham_input`. To faciliate usage of the `basic_info` arguement, we will use a function `make_basic_info` that will make the needed list.
+
+```{r, eval=FALSE}
+make_basic_info <- function(base_years = 1982:2021, ages = 1:10, Fhist = "updown") { 
+  info <- list()
+  info$ages <- ages
+  info$years <- as.integer(base_years[1] - 1 + 1:(length(base_years)))
+  info$n_fleets <- 1 
+  info$n_indices <- 1
+  na <- length(info$ages)
+  ny <- length(info$years)
+  
+  nby <- length(base_years)
+  mid <- floor(nby/2)
+  #up then down
+  if(Fhist == "updown") info$F <- matrix(0.2 + c(seq(0,0.4,length.out = mid),seq(0.4,0,length.out=nby-mid)),nby, info$n_fleets)
+
+  #down then up
+  if(Fhist == "downup") info$F <- matrix(0.2 + c(seq(0.4,0,length.out = mid),seq(0,0.4,length.out=nby-mid)),nby, info$n_fleets)
+  
+  info$catch_cv <- matrix(0.1, ny, info$n_fleets)
+  info$catch_Neff <- matrix(200, ny, info$n_fleets)
+  
+  info$index_cv <- matrix(0.3, ny, info$n_indices)
+  info$index_Neff <- matrix(100, ny, info$n_indices)
+  info$fracyr_indices <- matrix(0.5, ny, info$n_indices)
+  info$index_units <- rep(1, length(info$n_indices)) #biomass
+  info$index_paa_units <- rep(2, length(info$n_indices)) #abundance
+  
+  info$maturity <- t(matrix(1/(1 + exp(-1*(1:na - na/2))), na, ny))
+
+  L <- 100*(1-exp(-0.3*(1:na - 0)))
+  W <- exp(-11)*L^3
+  nwaa <- info$n_indices + info$n_fleets + 2
+  info$waa <- array(NA, dim = c(nwaa, ny, na))
+  for(i in 1:nwaa) info$waa[i,,] <- t(matrix(W, na, ny))
+
+  info$fracyr_SSB <- rep(0.25,ny)
+  info$q <- rep(0.3, info$n_indices)
+
+  info$selblock_pointer_fleets <- t(matrix(1:info$n_fleets, info$n_fleets, ny))
+  info$selblock_pointer_indices <- t(matrix(info$n_fleets + 1:info$n_indices, info$n_indices, ny))
+  
+  info$agg_catch <- matrix(100, ny, info$n_fleets)
+  info$catch_paa <- array(1/na, dim=c(info$n_fleets, ny, na))
+  info$agg_indices <- matrix(100, ny, info$n_indices)
+  info$index_paa <- array(1/na, dim=c(info$n_indices, ny, na))
+
+
+  return(info)
+}
+
+```
+Various attributes are specified here: 
+- the years over which the model spans, 
+- the number age classes, 
+- the number of fleets and indices, 
+- annual fully-selected fishing mortality
+- precision of aggregate catch and index observations
+- Maturity and weight at age
+- catchabilities for the indices, 
+- when indices occur during the year 
+- when spawning occurs
+- the selectivity blocks to assign to each fleet and index.
+
+Note that there is also filler data for the aggregate catch and indices and associated proportions at age. This is just to note that when these data are available, they can be provided here. Instead we will use the simulation capability of wham to generate data to which we can fit a model.
+
+Many of the other necessary attributes can be defined using the arguments `NAA_re`, `selectivity`, `M`, `ecov`, `catchability` and `age_comp` to `prepare_wham_input`.  
+
+
+Below we specify logistic selectivity and associated parameters (a50 and 1/slope), M = 0.2 and initial numbers at age and mean recruitment all using the lists supplied to these arguments of prepare_wham_input. However, nowhere have we specified a value for the standard deviation of the (log) recruitment random effects and so, the initial value (sd = 1) given in `prepare_wham_input` will be used. Importantly, `fit_wham` must be called with `do.fit=FALSE` to set up the model to be simulated with the parameter values specified rather than estimated. 
+
+
+```{r, eval=TRUE}
+basic_info = make_basic_info()
+
+selectivity_om = list(
+  model = c(rep("logistic", basic_info$n_fleets),rep("logistic", basic_info$n_indices)),
+  initial_pars = rep(list(c(5,1)), basic_info$n_fleets + basic_info$n_indices)) #fleet, index
+
+M_om = list(initial_means = rep(0.2, length(basic_info$ages)))
+
+NAA_re_om = list(
+  N1_pars = exp(10)*exp(-(0:(length(basic_info$ages)-1))*M_om$initial_means[1]),
+  sigma = "rec", #random about mean
+  cor="iid", #random effects are independent
+  use_steepness = 0,
+  recruit_model = 2, #random effects with a constant mean
+  recruit_pars = exp(10)
+)
+
+basic_input = prepare_wham_input(basic_info = basic_info, selectivity = selectivity_om, NAA_re = NAA_re_om, M = M_om)
+
+basic_om = fit_wham(basic_input, do.fit = FALSE, MakeADFun.silent = TRUE)
+
+                                                                    
+```
+
+As stated above, many of the parameter values are specified in the lists supplied to `prepare_wham_input`, but not all of them. In particular, we have not specified the variance parameter for the recruitment random effects so the default value for fitting a wham model is used. 
+
+```{r}
+basic_input$par$log_NAA_sigma
+```
+which will mean a standard deviation = 1 is assumed. In general, the parameters defining the variance and correlation of any random effects and any effects of environmental covariates currently need to be specified by changing the input returned by `prepare_wham_input`.
+
+Now, let's simulate a data set and then fit a model that assumes the same structure
+
+```{r}
+
+input <- basic_om$input
+
+# to make sure the data and fit are the same for everyone
+set.seed(1234) 
+
+input$data = basic_om$simulate(complete=TRUE)
+basic_fit <- fit_wham(input, do.osa = F, do.retro = F, MakeADFun.silent = T)
+
+plot_wham_output(mod=basic_fit, out.type = "html") # default is png, 
+
+```
+
+Now let's set the operating and estimating model to assume a full state-space model for all numbers at age.
+
+```{r}
+ 
+NAA_re_om = list(
+  N1_pars = exp(10)*exp(-(0:(length(basic_info$ages)-1))*M_om$initial_means[1]),
+  sigma = "rec+1", #random about mean for recruitment and iid deviations in "survival" for other ages
+  cor="iid", #random effects are independent
+  use_steepness = 0,
+  recruit_model = 2, #random effects with a constant mean
+  recruit_pars = exp(10)
+)
+
+basic_input = prepare_wham_input(basic_info = basic_info, selectivity = selectivity_om, NAA_re = NAA_re_om, M = M_om)
+
+basic_om = fit_wham(basic_input, do.fit = FALSE, MakeADFun.silent = TRUE)
+
+input <- basic_om$input
+
+# to make sure the data and fit are the same for everyone
+set.seed(1234) 
+
+input$data = basic_om$simulate(complete=TRUE)
+basic_fit <- fit_wham(input, do.osa = F, do.retro = F, MakeADFun.silent = T)
+
+plot_wham_output(mod=basic_fit, out.type = "html") # default is png, 
+
+```
+
+## 4. Random effects on selectivity
+
+Here we demonstrate how to set up selectivity parameters to be temporally varying random effects. We will assume the fishery has time varying selectivity parameters, but the index does not. 
+```{r}
+
+NAA_re_om = list(
+  N1_pars = exp(10)*exp(-(0:(length(basic_info$ages)-1))*M_om$initial_means[1]),
+  sigma = "rec+1", #random about mean for recruitment and iid deviations in "survival" for other ages
+  cor="iid", #random effects are independent
+  use_steepness = 0,
+  recruit_model = 2, #random effects with a constant mean
+  recruit_pars = exp(10)
+)
+
+
+selectivity_om = list(
+  model = c(rep("logistic", basic_info$n_fleets),rep("logistic", basic_info$n_indices)),
+  re = c("iid", "none"),
+  initial_pars = rep(list(c(5,1)), basic_info$n_fleets + basic_info$n_indices)) #fleet, index
+
+basic_input = prepare_wham_input(basic_info = basic_info, selectivity = selectivity_om, NAA_re = NAA_re_om, M = M_om)
+
+basic_input$par$sel_repars
+exp(basic_input$par$sel_repars[1,1])
+
+basic_om = fit_wham(basic_input, do.fit = FALSE, MakeADFun.silent = TRUE)
+
+input <- basic_om$input
+
+# to make sure the data and fit are the same for everyone
+set.seed(1234) 
+
+input$data = basic_om$simulate(complete=TRUE)
+basic_fit <- fit_wham(input, do.osa = F, do.retro = F, MakeADFun.silent = T)
+
+plot_wham_output(mod=basic_fit, out.type = "html") # default is png, 
+
+
+```
+Note the time series of selectivity in the results tab of the html output.
+
+## 5. Random effects on catchability
+
+Next we demonstrate allowing temporal variation in catchability. We will make the variability of the survival deviations to be more realistic and return the selectivity of the fishery to being constant.
+
+```{r}
+selectivity_om = list(
+  model = c(rep("logistic", basic_info$n_fleets),rep("logistic", basic_info$n_indices)),
+  initial_pars = rep(list(c(5,1)), basic_info$n_fleets + basic_info$n_indices)) #fleet, index
+catchability_om <- list(re = "iid")
+
+basic_input = prepare_wham_input(basic_info = basic_info, selectivity = selectivity_om, NAA_re = NAA_re_om, M = M_om,
+    catchability = catchability_om)
+
+basic_input$par$q_repars
+exp(basic_input$par$q_repars[1,1])
+basic_input$par$q_repars[1,1] <- c(log(0.1))#,wham:::gen.logit(0.9,-1,1,2))
+
+exp(basic_input$par$log_NAA_sigma)
+basic_input$par$log_NAA_sigma[2] = log(0.3)
+
+basic_om = fit_wham(basic_input, do.fit = FALSE, MakeADFun.silent = TRUE)
+
+input <- basic_om$input
+
+# to make sure the data and fit are the same for everyone
+set.seed(1234) 
+
+input$data = basic_om$simulate(complete=TRUE)
+plot(input$years, input$data$q, type = 'l')
+
+basic_fit <- fit_wham(input, do.osa = F, do.retro = F, MakeADFun.silent = T)
+
+plot_wham_output(mod=basic_fit, out.type = "html") # default is png, 
+
+```
+Note the time series of catchability in the results tab of the html output.
+
+
+## 6. Random effects on M
+
+Next we demonstrate allowing temporal variation in natural mortality. We will return to allowing random effects on recruitment for the numbers at age and return to assuming catchability of the index is constant.
+
+```{r}
+
+NAA_re_om = list(
+  #random effects for recruitment only
+  sigma="rec", 
+  #random effects are independent
+  cor="iid", 
+  #mean recruitment is the only fixed effect parameter
+  recruit_model = 2) 
+
+M_om = list(initial_means = rep(0.2, length(basic_info$ages)), re = "iid")
+
+basic_input = prepare_wham_input(basic_info = basic_info, selectivity = selectivity_om, NAA_re = NAA_re_om, M = M_om)
+
+#estimate one M constant across ages
+#basic_input$map$M_a = factor(rep(1,basic_input$data$n_ages))
+
+basic_input$par$M_repars
+exp(basic_input$par$M_repars[1])
+basic_input$par$M_repars[1] = log(0.6)
+#basic_input$par$M_repars[3] = wham:::gen.logit(0.5,-1,1,2)
+basic_om = fit_wham(basic_input, do.fit = FALSE, MakeADFun.silent = TRUE)
+
+input <- basic_om$input
+
+# to make sure the data and fit are the same for everyone
+set.seed(12345678) 
+
+input$data = basic_om$simulate(complete=TRUE)
+plot(input$years, input$data$MAA[,1], type = 'l')
+
+basic_fit <- fit_wham(input, do.osa = F, do.retro = F, MakeADFun.silent = T)
+basic_fit$sdrep
+
+plot_wham_output(mod=basic_fit, out.type = "html") # default is png, 
+
+
+```
+Note the time series of natural mortality at age in the results tab of the html output.
+
+
+## 7. Environmental covariate effects on recruitment:
+
+To illustrate using environmental covariates in WHAM, let's go back to using a asap3 dat and environmental covariate files for SNEMA YT that exists in the WHAM package. This small example is taken from the second WHAM vignette on models evaluating the effects of the Cold Pool Index on SNEMA YT recruitment.
+
+```{r}
+asap3 <- read_asap3_dat(file.path(wham.dir,"extdata","ex2_SNEMAYT.dat"))
+env.dat <- read.csv(file.path(wham.dir,"extdata","CPI.csv"), header=T)
+
+ecov <- list(
+  label = "CPI",
+  mean = as.matrix(env.dat$CPI),
+  logsigma = as.matrix(log(env.dat$CPI_sigma)),
+  year = env.dat$Year,
+  use_obs = matrix(1, ncol=1, nrow=dim(env.dat)[1]), # use all obs (all = 1)
+  lag = 1, # CPI in year t affects recruitment in year t+1
+  process_model = 'ar1', # "rw" or "ar1"
+  where = "recruit",
+  how = 2) # 0 = no effect, 1 = controlling, 2 = limiting
+
+selectivity <- list(initial_pars = c(rep(list(c(3,3)),4), rep(list(c(1.5,0.1)),2)))
+input <- prepare_wham_input(asap3, recruit_model = 3,
+  model_name = "Ex 2: SNEMA Yellowtail Flounder with CPI effects on R",
+  ecov = ecov,
+  selectivity = selectivity,
+  NAA_re = list(sigma="rec+1", cor="iid"),
+  age_comp = "logistic-normal-pool0") # logistic normal pool 0 obs
+input$par$logit_selpars
+input$data$FMSY_init[] = 0.5
+
+mod <- fit_wham(input, do.retro=F, do.osa=F)
+
+plot_wham_output(mod=mod, out.type = "html") # default is png, 
+
+```
+Note in the results tab changes in M over time and in the reference points tab, effects on reference points and status determination.
+
+## 8. Environmental covariate effects on M:
+
+Similar to the last example for effects on recruitment, we will also use SNEMA YT files for demonstrating effects of the Gulf Stream Index on natural mortality. This is taken from the fifth WHAM vignette on models evaluating the effects of the GSI on SNEMA YT natural mortality.
+
+```{r}
+asap3 <- read_asap3_dat(file.path(wham.dir,"extdata","ex2_SNEMAYT.dat"))
+env.dat <- read.csv(file.path(wham.dir,"extdata","GSI.csv"), header=T)
+
+
+selectivity=list(model=rep("logistic",6),
+ initial_pars=c(rep(list(c(3,3)),4), list(c(1.5,0.1), c(1.5,0.1))),
+ fix_pars=c(rep(list(NULL),4), list(1:2, 1:2)))
+
+ecov <- list(
+  label = "GSI",
+  mean = as.matrix(env.dat$GSI),
+  logsigma = 'est_1', # estimate obs sigma, 1 value shared across years
+  year = env.dat$year,
+  use_obs = matrix(1, ncol=1, nrow=dim(env.dat)[1]), # use all obs (=1)
+  lag = 0, # GSI in year t affects M in same year
+  process_model = "ar1", # GSI modeled as AR1 (random walk would be "rw")
+  where = "M", # GSI affects natural mortality
+  how = 1) # include GSI effect on M
+
+M <- list(
+  model = "constant", #M is age invariant
+  re = "none", #no random effects on M
+  initial_means = 0.28) # "Mean" M (if Environmental covariates are anomalies that sum to zero)
+
+input <- prepare_wham_input(asap3, recruit_model = 2,
+  ecov = ecov,
+  NAA_re = list(sigma='rec+1',cor='iid'),
+  selectivity = selectivity,
+  M=M,
+  age_comp = "logistic-normal-pool0") # logistic normal pool 0 obs
+
+input$data$FXSPR_init[] <- 0.5
+
+mod <- fit_wham(input, do.retro=F, do.osa=F) # turn off OSA residuals to save time
+
+plot_wham_output(mod=mod, out.type = "html") # default is png, 
+
+
+```
+Note in the results tab changes in M over time and in the reference points tab, effects on reference points and status determination.
