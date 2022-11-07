@@ -13,6 +13,7 @@ rmd_files: [
   "ecolind.Rmd",
   "rpath.Rmd",
   "wham.Rmd",
+  "fep.Rmd",
   "reading.Rmd"
 #   "01-intro-mse.Rmd",
 #   "04-objectives.Rmd",

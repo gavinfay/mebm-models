@@ -92,7 +92,7 @@ class spaces, including classroom, myCourses, Zoom calls, class GoogleDocs, and 
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 8-Nov         | 11          | T           | Climate-linked fisheries stock assessment (Amanda Hart, GMRI)          |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 10-Nov        | 11          | Th          | Multispecies policy analysis - fishery ecosystem plans               |
+| 10-Nov        | 11          | Th          | [Multispecies policy analysis - fishery ecosystem plans](#fep)               |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 15-Nov        | 12          | T           | Marine spatial planning                                    |
 +---------------+-------------+-------------+------------------------------------------------------------+

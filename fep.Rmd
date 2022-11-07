@@ -1,0 +1,31 @@
+# Developing Fishery Ecosystem Plans {#fep}
+
+As usual, course materials not in the github repository can be found in the course Google Drive [course-materials folder](https://drive.google.com/drive/folders/1Wt4fhAgCP92aBu_XSCQq50Xrkc-UVHnx?usp=sharing). Everything will of course be linked to here on the website.  
+
+## 11/10 {.unlisted .unnumbered}
+
+[Lecture slides]()   
+
+
+## Reading {.unlisted .unnumbered}
+
+Primary reading for 11/10
+
+[Fogarty, M.J., 2014. The art of ecosystem-based fishery management. Canadian Journal of Fisheries and Aquatic Sciences, 71(3), pp.479-490.](https://doi.org/10.1139/cjfas-2013-0203)  
+
+[Marshall, K.N., Levin, P.S., Essington, T.E., Koehn, L.E., Anderson, L.G., Bundy, A., Carothers, C., Coleman, F., Gerber, L.R., Grabowski, J.H. and Houde, E., 2018. Ecosystem‐based fisheries management for social–ecological systems: renewing the focus in the United States with next generation fishery ecosystem plans. Conservation Letters, 11(1), p.e12367.]( https://doi.org/10.1111/conl.12367)  
+
+
+### Additional readings {.unlisted .unnumbered}
+
+[Fulton, E.A., Sainsbury, K., Noranarttragoon, P., Leadbitter, D., Staples, D.J., Porobic, J., Ye, Y., Phoonsawat, R. and Kulanujaree, N., 2022. Shifting baselines and deciding on the desirable form of multispecies maximum sustainable yield. ICES Journal of Marine Science, 79(7), pp.2138-2154.](https://doi.org/10.1093/icesjms/fsac150)  
+
+[Möllmann, C., Lindegren, M., Blenckner, T., Bergström, L., Casini, M., Diekmann, R., Flinkman, J., Müller-Karulis, B., Neuenfeldt, S., Schmidt, J.O. and Tomczak, M., 2014. Implementing ecosystem-based fisheries management: from single-species to integrated ecosystem assessment and advice for Baltic Sea fish stocks. ICES Journal of Marine Science, 71(5), pp.1187-1197.](https://doi.org/10.1093/icesjms/fst123)  
+
+[Perryman, H.A., Hansen, C., Howell, D. and Olsen, E., 2021. A review of applications evaluating fisheries management scenarios through marine ecosystem models. Reviews in Fisheries Science & Aquaculture, 29(4), pp.800-835.](https://doi.org/10.1080/23308249.2021.1884642)  
+
+[Reum, J.C., Townsend, H., Gaichas, S., Sagarese, S., Kaplan, I.C. and Grüss, A., 2021. It’s not the destination, it’s the journey: multispecies model ensembles for ecosystem approaches to fisheries management. Frontiers in Marine Science, 8, p.631839.](https://doi.org/10.3389/fmars.2021.631839)  
+
+[Rindorf, A., Dichmont, C.M., Levin, P.S., Mace, P., Pascoe, S., Prellezo, R., Punt, A.E., Reid, D.G., Stephenson, R., Ulrich, C. and Vinther, M., 2017. Food for thought: pretty good multispecies yield. ICES Journal of Marine Science, 74(2), pp.475-486.](https://doi.org/10.1093/icesjms/fsw071)  
+
+
