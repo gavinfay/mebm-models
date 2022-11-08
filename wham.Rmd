@@ -38,8 +38,11 @@ More installation istructions and information about wham, see the github reposit
 
 Guest lecture from __Amanda Hart, UMassD-SMAST & GMRI__  
 
+[Lecture slides](https://docs.google.com/presentation/d/1DCFof6nzsCnxXpSaoLb5p5jCE-Kjdk-B/edit?usp=share_link&ouid=100082783551785338508&rtpof=true&sd=true)  
+
+[Supplemental reading - 2021 American Plaice Working Group Report](https://drive.google.com/file/d/1BodHCKG7OaIIfqsMkmm63bVfaqIGyDSG/view?usp=share_link)  
+
 
 ## Primary Reading {.unlisted .unnumbered}
 
 [Stock, B.C. and Miller, T.J., 2021. The Woods Hole Assessment Model (WHAM): a general state-space assessment framework that incorporates time-and age-varying processes via random effects and links to environmental covariates. Fisheries Research, 240, p.105967.](https://doi.org/10.1016/j.fishres.2021.105967)
-
