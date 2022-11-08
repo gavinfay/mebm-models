@@ -90,7 +90,7 @@ class spaces, including classroom, myCourses, Zoom calls, class GoogleDocs, and 
 | 3-Nov         | 10          | Th          | [Woods Hole Assessment Model (WHAM) (Dr. Tim Miller, NOAA NEFSC)](#wham)\   |
 |               |             |             | *Homework 4 due (Rpath tradeoff analysis)*                 |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 8-Nov         | 11          | T           | Climate-linked fisheries stock assessment (Amanda Hart, GMRI)          |
+| 8-Nov         | 11          | T           | [Climate-linked fisheries stock assessment (Amanda Hart, GMRI)](#wham)          |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 10-Nov        | 11          | Th          | [Multispecies policy analysis - fishery ecosystem plans](#fep)               |
 +---------------+-------------+-------------+------------------------------------------------------------+
