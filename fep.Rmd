@@ -4,7 +4,10 @@ As usual, course materials not in the github repository can be found in the cour
 
 ## 11/10 {.unlisted .unnumbered}
 
-[Lecture slides]()   
+[Lecture slides](https://docs.google.com/presentation/d/11WKd1kSTc_7rOFuNk6q7wTRYIrvg0QkC8MLPSbYO-c8/edit?usp=share_link)   
+
+[Multispecies  MSE materials](https://github.com/gavinfay/mebm-models/blob/main/course-materials/msprod)
+
 
 
 ## Reading {.unlisted .unnumbered}
