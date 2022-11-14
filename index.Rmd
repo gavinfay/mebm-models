@@ -94,12 +94,12 @@ class spaces, including classroom, myCourses, Zoom calls, class GoogleDocs, and 
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 10-Nov        | 11          | Th          | [Multispecies policy analysis - fishery ecosystem plans](#fep)               |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 15-Nov        | 12          | T           | Marine spatial planning                                    |
+| 15-Nov        | 12          | T           | More multispecies MSE & fleet dynamics                                    |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 17-Nov        | 12          | Th          | Fleet dynamics modeling                 |
+| 17-Nov        | 12          | Th          |  Marine spatial planning                 |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 22-Nov        | 13          | T           | Whole of system models I\                                  |
-|               |             |             | *Homework 5 due (spatial planning using Marxan)*           |
+|               |             |             | *Homework 5 due Wed (spatial planning using Marxan)*           |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 24-Nov        | 13          | Th          | NO CLASS - THANKSGIVING                                    |
 +---------------+-------------+-------------+------------------------------------------------------------+
