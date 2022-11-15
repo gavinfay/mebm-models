@@ -6,7 +6,9 @@ As usual, course materials not in the github repository can be found in the cour
 
 [Lecture slides](https://docs.google.com/presentation/d/11WKd1kSTc_7rOFuNk6q7wTRYIrvg0QkC8MLPSbYO-c8/edit?usp=share_link)   
 
-[Multispecies  MSE materials](https://github.com/gavinfay/mebm-models/blob/main/course-materials/msprod)
+## 11/15 {.unlisted .unnumbered}
+
+[Multispecies  MSE exercise materials](https://github.com/gavinfay/mebm-models/blob/main/course-materials/msprod)
 
 
 

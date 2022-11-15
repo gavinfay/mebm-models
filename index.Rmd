@@ -94,9 +94,9 @@ class spaces, including classroom, myCourses, Zoom calls, class GoogleDocs, and 
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 10-Nov        | 11          | Th          | [Multispecies policy analysis - fishery ecosystem plans](#fep)               |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 15-Nov        | 12          | T           | More multispecies MSE & fleet dynamics                                    |
+| 15-Nov        | 12          | T           | [Multispecies MSE & fleet dynamics](#fep)                                    |
 +---------------+-------------+-------------+------------------------------------------------------------+
-| 17-Nov        | 12          | Th          |  Marine spatial planning                 |
+| 17-Nov        | 12          | Th          |  [Marine spatial planning](#msp)                 |
 +---------------+-------------+-------------+------------------------------------------------------------+
 | 22-Nov        | 13          | T           | Whole of system models I\                                  |
 |               |             |             | *Homework 5 due Wed (spatial planning using Marxan)*           |
@@ -167,7 +167,7 @@ A recommended reading list covering the individual topics will be posted on this
 -   McLeod, K., & Leslie, H. (Eds.). 2009. Ecosystem-based management for the oceans. Washington, DC, USA: Island Press.
 -   Walters, C. J., & S.J. Martell. 2004. Fisheries ecology and management. Princeton University Press.
 
-### Title IX statement
+### Title IX statement {.unnumbered}
 
 The purpose of a university is to disseminate information, as well as to explore a universe of ideas, to encourage diverse perspectives and robust expression, and to foster the development of critical and analytical thinking skills. In many classes, including this one, students and faculty examine and analyze challenging and controversial topics.
 

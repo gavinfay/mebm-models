@@ -1,0 +1,31 @@
+# Marine Spatial Planning {#msp}
+
+As usual, course materials not in the github repository can be found in the course Google Drive [course-materials folder](https://drive.google.com/drive/folders/1Wt4fhAgCP92aBu_XSCQq50Xrkc-UVHnx?usp=sharing). Everything will of course be linked to here on the website.  
+
+## 11/17 {.unlisted .unnumbered}
+
+Please watch the following two videos ahead of class, as well as the Lombard paper below. The Ball et al. paper contains useful information about the case study software we will run an example in.  
+
+[How to choose marine reserves](https://youtu.be/1IDeKJJO7s8)  
+
+[Marine planning in Wales](https://youtu.be/d7i30DT9ffg)
+
+[Lecture slides]()
+
+## Reading {.unlisted .unnumbered}
+
+Primary reading for 11/17
+
+[Lombard, A.T., Ban, N.C., Smith, J.L., Lester, S.E., Sink, K.J., Wood, S.A., Jacob, A.L., Kyriazi, Z., Tingey, R. and Sims, H.E., 2019. Practical approaches and advances in spatial tools to achieve multi-objective marine spatial planning. Frontiers in Marine Science, 6, p.166.](https://doi.org/10.3389/fmars.2019.0016)  
+
+[Ball, I.R., Possingham, H.P. and Watts, M., 2009. Marxan and relatives: software for spatial conservation prioritisation. Spatial conservation prioritisation: Quantitative methods and computational tools, pp.185-195.](https://drive.google.com/file/d/11zkvhbuiPetVgOmgTOaEXTqwgjn0vkoG/view?usp=share_link)  
+
+
+### Additional readings {.unlisted .unnumbered}
+
+[Maxwell, S.M., Hazen, E.L., Lewison, R.L., Dunn, D.C., Bailey, H., Bograd, S.J., Briscoe, D.K., Fossette, S., Hobday, A.J., Bennett, M. and Benson, S., 2015. Dynamic ocean management: Defining and conceptualizing real-time management of the ocean. Marine Policy, 58, pp.42-50.](https://doi.org/10.1016/j.marpol.2015.03.014)  
+
+[White, C., Halpern, B.S. and Kappel, C.V., 2012. Ecosystem service tradeoff analysis reveals the value of marine spatial planning for multiple ocean uses. Proceedings of the National Academy of Sciences, 109(12), pp.4696-4701.](https://doi.org/10.1073/pnas.1114215109)  
+
+[Guerry, A.D., Ruckelshaus, M.H., Arkema, K.K., Bernhardt, J.R., Guannel, G., Kim, C.K., Marsik, M., Papenfus, M., Toft, J.E., Verutes, G. and Wood, S.A., 2012. Modeling benefits from nature: using ecosystem services to inform coastal and marine spatial planning. International Journal of Biodiversity Science, Ecosystem Services & Management, 8(1-2), pp.107-121.](https://doi.org/10.1080/21513732.2011.647835)  
+
