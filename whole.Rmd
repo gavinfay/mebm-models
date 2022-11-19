@@ -1,0 +1,33 @@
+# Whole of System models (Atlantis) {#whole}
+
+As usual, course materials not in the github repository can be found in the course Google Drive [course-materials folder](https://drive.google.com/drive/folders/1Wt4fhAgCP92aBu_XSCQq50Xrkc-UVHnx?usp=sharing). Everything will of course be linked to here on the website.  
+
+This section focuses on whole-of-system, or 'end-to-end' models. We will focus on the Atlantis model as an example of this type of modeling.    
+
+## 11/22 {.unlisted .unnumbered}
+
+Overview of end-to-end models and Atlantis.  
+
+Prior to class please watch the [Introduction lecture video](https://drive.google.com/file/d/1litH1gEiat2-p-VVfe7vcJgdwrmnQ95G/view?usp=share_link) by Beth Fulton (55 min).  
+
+You can also watch [this Example implementation lecture video](https://drive.google.com/file/d/1vBc_NUyRfXfCSV0t3zXQMlNaHs9U4aTo/view?usp=share_link) by Beth, on the SE Australia model (36 min).  
+
+[slide deck]()  
+
+
+## 11/29 {.unlisted .unnumbered}
+
+
+
+## Reading {.unlisted .unnumbered}
+
+### Primary readings {.unlisted .unnumbered}
+
+[Fulton, E.A., Link, J.S., Kaplan, I.C., Savina‐Rolland, M., Johnson, P., Ainsworth, C., Horne, P., Gorton, R., Gamble, R.J., Smith, A.D. and Smith, D.C., 2011. Lessons in modelling and management of marine ecosystems: the Atlantis experience. Fish and fisheries, 12(2), pp.171-188.]( https://doi.org/10.1111/j.1467-2979.2011.00412.x)
+
+[Audzijonyte, A., Pethybridge, H., Porobic, J., Gorton, R., Kaplan, I. and Fulton, E.A., 2019. AtlAntis: A spatially explicit end‐to‐end marine ecosystem model with dynamically integrated physics, ecology and socio‐economic modules. Methods in Ecology and Evolution, 10(10), pp.1814-1819.](https://doi.org/10.1111/2041-210X.13272)  
+
+
+### Additional readings {.unlisted .unnumbered}
+
+[Fulton, E.A., Smith, A.D., Smith, D.C. and Johnson, P., 2014. An integrated approach is needed for ecosystem based fisheries management: insights from ecosystem-level management strategy evaluation. PloS one, 9(1), p.e84242.](https://doi.org/10.1371/journal.pone.0084242)

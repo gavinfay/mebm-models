@@ -15,6 +15,7 @@ rmd_files: [
   "wham.Rmd",
   "fep.Rmd",
   "msp.Rmd",
+  "whole.Rmd",
   "reading.Rmd"
 #   "01-intro-mse.Rmd",
 #   "04-objectives.Rmd",
