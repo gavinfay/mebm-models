@@ -12,6 +12,7 @@ rpath
 wham
 fep
 msp
+whole
 reading
 zotero-library
 useful-books
