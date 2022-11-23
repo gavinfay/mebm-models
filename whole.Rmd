@@ -12,7 +12,7 @@ Prior to class please watch the [Introduction lecture video](https://drive.googl
 
 You can also watch [this Example implementation lecture video](https://drive.google.com/file/d/1vBc_NUyRfXfCSV0t3zXQMlNaHs9U4aTo/view?usp=share_link) by Beth, on the SE Australia model (36 min).  
 
-[slide deck]()  
+[GF slide deck](https://docs.google.com/presentation/d/1D10K2s0ukEUtCm4Bk5w5vvtljKN368vO/edit?usp=share_link&ouid=100082783551785338508&rtpof=true&sd=true)  
 
 
 ## 11/29 {.unlisted .unnumbered}

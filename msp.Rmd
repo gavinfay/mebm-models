@@ -16,7 +16,13 @@ Please watch the following two videos ahead of class, as well as the Lombard pap
 
 [planning unit handout](https://drive.google.com/file/d/1Z6kgdWBgOJ5ggjCWvldmDOIx8zSKzbCO/view?usp=share_link)  
 
-[exercise slides](https://docs.google.com/presentation/d/13Fw7FpBpmVfd8IavMdjFHNLYjmWBhbEa/edit?usp=share_link&ouid=100082783551785338508&rtpof=true&sd=true)
+<!-- [exercise slides](https://docs.google.com/presentation/d/13Fw7FpBpmVfd8IavMdjFHNLYjmWBhbEa/edit?usp=share_link&ouid=100082783551785338508&rtpof=true&sd=true) -->
+
+## Homework Assignment #5 {.unlisted .unnumbered}
+
+Work through the prioritizr tutorial, instructions at the beginning of the `.Rmd` file linked below.  
+[Prioritizr.Rmd](https://github.com/gavinfay/mebm-models/blob/main/course-materials/msp/prioritizr.Rmd)
+
 
 ## Reading {.unlisted .unnumbered}
 
