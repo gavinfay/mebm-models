@@ -17,6 +17,27 @@ You can also watch [this Example implementation lecture video](https://drive.goo
 
 ## 11/29 {.unlisted .unnumbered}
 
+Project work time
+
+
+## 12/01 {.unlisted .unnumbered}
+
+Installing Atlantis via container (docker) - see Google doc notes
+
+[Participatory modeling slide deck](https://docs.google.com/presentation/d/1-7tOgEJ7-7vnfIH6RZNCCMG85J9vVbaP/edit?usp=share_link&ouid=100082783551785338508&rtpof=true&sd=true)
+
+[Voinov, A. and Bousquet, F., 2010. Modelling with stakeholders. Environmental modelling & software, 25(11), pp.1268-1281.](https://doi.org/10.1016/j.envsoft.2010.03.007)  
+
+
+## 12/06 {.unlisted .unnumbered}
+
+Running Atlantis and viewing output
+
+[Multicriteria Decision Analysis slide deck](https://docs.google.com/presentation/d/1-7tOgEJ7-7vnfIH6RZNCCMG85J9vVbaP/edit?usp=share_link&ouid=100082783551785338508&rtpof=true&sd=true)
+
+[Huang, I.B., Keisler, J. and Linkov, I., 2011. Multi-criteria decision analysis in environmental sciences: Ten years of applications and trends. Science of the total environment, 409(19), pp.3578-3594.](https://doi.org/10.1016/j.scitotenv.2011.06.022)
+
+[Punt, A.E., 2017. Strategic management decision-making in a complex world: quantifying, understanding, and using trade-offs. ICES Journal of Marine Science, 74(2), pp.499-510.](https://doi.org/10.1093/icesjms/fsv193)
 
 
 ## Reading {.unlisted .unnumbered}
